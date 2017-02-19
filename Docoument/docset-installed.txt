@@ -1,0 +1,7 @@
+
+appledoc -o /Users/lhp3851/Documents/lhpStudy/Docoument -p adapteTableviewHight -c "lhp3851"  --company-id www.lhp3851.com ./adapteTableviewHight
+
+Documentation set was installed to Xcode!
+
+Path: /Users/lhp3851/Library/Developer/Shared/Documentation/DocSets/www.lhp3851.com.adapteTableviewHight.docset
+Time: 2016-03-17 17:05:54 +0000

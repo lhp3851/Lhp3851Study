@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="delegateAndBlockViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Mv8-eJ-3tP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-wt-mo8">
+                    <rect key="frame" x="10" y="74" width="90" height="30"/>
+                    <color key="backgroundColor" red="0.7634799419351852" green="0.89393939393939392" blue="0.28909982009649576" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="delegate传值"/>
+                    <connections>
+                        <action selector="delegatePassContent:" destination="-1" eventType="touchUpInside" id="fgF-zU-POC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPm-dZ-Kec">
+                    <rect key="frame" x="10" y="114" width="90" height="30"/>
+                    <color key="backgroundColor" red="0.76347994190000001" green="0.89393939389999999" blue="0.28909982010000002" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="block传值"/>
+                    <connections>
+                        <action selector="blockPassContent:" destination="-1" eventType="touchUpInside" id="h97-E6-WDJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZPm-dZ-Kec" firstAttribute="leading" secondItem="8mL-wt-mo8" secondAttribute="leading" id="8F3-nW-IpB"/>
+                <constraint firstItem="8mL-wt-mo8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Ith-nQ-GZY"/>
+                <constraint firstItem="8mL-wt-mo8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="74" id="T2c-fx-BRO"/>
+                <constraint firstItem="ZPm-dZ-Kec" firstAttribute="top" secondItem="8mL-wt-mo8" secondAttribute="bottom" constant="10" id="Uih-EU-ZMw"/>
+                <constraint firstItem="ZPm-dZ-Kec" firstAttribute="width" secondItem="8mL-wt-mo8" secondAttribute="width" id="kzz-pZ-tPw"/>
+            </constraints>
+            <point key="canvasLocation" x="-222" y="220"/>
+        </view>
+    </objects>
+</document>

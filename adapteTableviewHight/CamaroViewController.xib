@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CamaroViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdF-0J-jLU">
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gtF-6d-lBg"/>
+                    </constraints>
+                    <state key="normal" title="拍照片"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="capturePhoto:" destination="-1" eventType="touchUpInside" id="ZwJ-ZH-xpN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHf-xk-mXl">
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="zyn-t2-qef"/>
+                    </constraints>
+                    <state key="normal" title="拍视频"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="captureVedio:" destination="-1" eventType="touchUpInside" id="aYe-a2-KZU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEc-yJ-b7c">
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9kT-lc-n5E"/>
+                    </constraints>
+                    <state key="normal" title="二维码扫描"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="scanQRCode:" destination="-1" eventType="touchUpInside" id="u3g-h7-BxW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NHf-xk-mXl" firstAttribute="top" secondItem="CdF-0J-jLU" secondAttribute="bottom" constant="15" id="2hJ-Gl-Y0s"/>
+                <constraint firstItem="CdF-0J-jLU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="A9w-6g-KVc"/>
+                <constraint firstItem="NHf-xk-mXl" firstAttribute="leading" secondItem="CdF-0J-jLU" secondAttribute="leading" id="CHb-Al-eFP"/>
+                <constraint firstItem="CdF-0J-jLU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="70" id="FN3-T0-FPu"/>
+                <constraint firstItem="YEc-yJ-b7c" firstAttribute="top" secondItem="NHf-xk-mXl" secondAttribute="bottom" constant="15" id="GeW-lo-VsA"/>
+                <constraint firstItem="NHf-xk-mXl" firstAttribute="width" secondItem="CdF-0J-jLU" secondAttribute="width" id="OFe-i2-Uv2"/>
+                <constraint firstItem="YEc-yJ-b7c" firstAttribute="width" secondItem="NHf-xk-mXl" secondAttribute="width" id="frE-Bo-AVO"/>
+                <constraint firstAttribute="trailing" secondItem="CdF-0J-jLU" secondAttribute="trailing" constant="70" id="g55-YL-gH3"/>
+                <constraint firstItem="YEc-yJ-b7c" firstAttribute="leading" secondItem="NHf-xk-mXl" secondAttribute="leading" id="sNV-SY-Fo4"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
