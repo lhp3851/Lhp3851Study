@@ -170,13 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "-didReceiveMemoryWarning"
-            landmarkType = "7">
+            startingLineNumber = "107"
+            endingLineNumber = "107">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -186,11 +184,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "-getPhotosCollectionList"
             landmarkType = "7">
             <Locations>
@@ -234,11 +232,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "-getPhotosCollectionList"
             landmarkType = "7">
             <Locations>
@@ -282,11 +280,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "-getPhotosCollectionList"
             landmarkType = "7">
             <Locations>
@@ -330,12 +328,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-getPhotosCollectionList"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -346,13 +344,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-getPhotosCollectionList"
-            landmarkType = "7">
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "@implementation PhotosViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -394,12 +392,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-imagePickerControllerDidCancel:"
             landmarkType = "7">
             <Locations>
                <Location
@@ -442,12 +440,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-imagePickerControllerDidCancel:"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "7">
             <Locations>
                <Location
@@ -490,12 +488,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/PhotosViewController.m"
-            timestampString = "509193372.171795"
+            timestampString = "509198282.280528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "-openPhotosLibrary"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-getPhotosCollectionList"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

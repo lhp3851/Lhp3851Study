@@ -12,4 +12,8 @@
 
 #define HMARGIN 15
 
+#define kSTATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define kNAVIGATION_BAR_HEIGHT self.navigationController.navigationBar.frame.size.height
+
 #endif /* Const_h */

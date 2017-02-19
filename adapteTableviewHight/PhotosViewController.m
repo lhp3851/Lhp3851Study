@@ -21,6 +21,8 @@
     [super viewDidLoad];
     [self initData];
     [self initView];
+    NSLog(@"%f--%f",kNAVIGATION_BAR_HEIGHT,kSTATUS_BAR_HEIGHT);
+    
 }
 
 -(void)initData{
@@ -43,7 +45,7 @@
 
 -(void)openPhotosLibrary{
     self.pickerImageTool=[[PickerImageTool alloc]initWithType:UIImagePickerControllerSourceTypePhotoLibrary allowEdit:YES ViewCotroler:self pickerImage:^(UIImage *image) {
-        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(HMARGIN, 64, 200, 200)];
+        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(HMARGIN, kNAVIGATION_BAR_HEIGHT+kSTATUS_BAR_HEIGHT, 200, 200)];
         imageView.image=image;
         [self.view addSubview:imageView];
         self.pickerImageTool=nil;
