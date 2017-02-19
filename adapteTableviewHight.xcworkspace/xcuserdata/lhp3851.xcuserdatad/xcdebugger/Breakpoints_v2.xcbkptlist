@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/CamaroViewController.m"
-            timestampString = "499680040.862685"
+            timestampString = "509175406.979824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/CamaroViewController.m"
-            timestampString = "499680040.862685"
+            timestampString = "509175406.979824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,12 +138,364 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adapteTableviewHight/CamaroViewController.m"
-            timestampString = "499680040.862685"
+            timestampString = "509175406.979824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "-alertView:willDismissWithButtonIndex:"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "-didReceiveMemoryWarning"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/CamaroViewController.m"
+            timestampString = "509175406.979824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-session"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-didReceiveMemoryWarning"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-getPhotosCollectionList"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PhotosViewController getPhotosCollectionList]"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.744631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.745956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-getPhotosCollectionList"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.748721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke_2"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.750053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-getPhotosCollectionList"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke_2"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.752797"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke_3"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177609.754119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-getPhotosCollectionList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-getPhotosCollectionList"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke_3"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177666.664261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PhotosViewController getPhotosCollectionList]_block_invoke_4"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509177666.666231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PhotosViewController imagePickerController:didFinishPickingMediaWithInfo:]"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509193022.603141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__76-[PhotosViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509193022.604935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-imagePickerControllerDidCancel:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PhotosViewController imagePickerControllerDidCancel:]"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509193022.60799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55-[PhotosViewController imagePickerControllerDidCancel:]_block_invoke"
+                  moduleName = "AdapteTableviewHight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/PhotosViewController.m"
+                  timestampString = "509193022.609791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "adapteTableviewHight/PhotosViewController.m"
+            timestampString = "509193372.171795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-openPhotosLibrary"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

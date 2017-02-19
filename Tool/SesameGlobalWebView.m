@@ -20,7 +20,7 @@
     if (self) {
         // Initialization code
         UIImage *bottomImage = [UIImage imageNamed:@"bg_bottom_Image.png"];
-        webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, screenWidth,frame.size.height-bottomImage.size.height)];
+        webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, kSCREENWIDTH,frame.size.height-bottomImage.size.height)];
         webView.delegate = self;
         webView.scalesPageToFit = YES;
                 NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:dataString]  cachePolicy:NSURLRequestReturnCacheDataElseLoad

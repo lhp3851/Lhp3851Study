@@ -75,7 +75,7 @@
     
     output=[[AVCaptureMetadataOutput alloc]init];
     [output setMetadataObjectsDelegate:self queue:dispatch_get_main_queue()];
-//    [ output setRectOfInterest : CGRectMake (( 124 )/ screenHight ,(( screenWidth - 220 )/ 2 )/ screenWidth , 220 / screenHight , 220 / screenWidth )];
+//    [ output setRectOfInterest : CGRectMake (( 124 )/ kSCREENHEIGHT ,(( kSCREENWIDTH - 220 )/ 2 )/ kSCREENWIDTH , 220 / kSCREENHEIGHT , 220 / kSCREENWIDTH )];
     
     session=[[AVCaptureSession alloc]init];
     [session setSessionPreset:AVCaptureSessionPresetHigh];

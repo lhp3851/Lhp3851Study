@@ -15,6 +15,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "Const.h"
     #import "CategeryOrExtension.h"//自定义类别、拓展
 #endif
 
@@ -22,21 +23,21 @@
 #ifndef adapteTableviewHight_pch
 #define adapteTableviewHight_pch
 //屏幕宽高
-#define screenHight [[UIScreen mainScreen] bounds].size.height
-#define screenWidth [[UIScreen mainScreen] bounds].size.width
+#define kSCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define kSCREENWIDTH  [[UIScreen mainScreen] bounds].size.width
 #define tablebarHight self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
 //系统版本
 #define kSYSYTEMVERSION  [UIDevice currentDevice].systemVersion.floatValue
-#define ios6 ([UIDevice currentDevice].systemVersion.floatValue>=6.0)&&([UIDevice currentDevice].systemVersion.floatValue<7.0)
-#define ios7 ([UIDevice currentDevice].systemVersion.floatValue>=7.0)&&([UIDevice currentDevice].systemVersion.floatValue<8.0)
-#define ios8 ([UIDevice currentDevice].systemVersion.floatValue>=8.0)&&([UIDevice currentDevice].systemVersion.floatValue<9.0)
-#define ios9 ([UIDevice currentDevice].systemVersion.floatValue>=9.0)&&([UIDevice currentDevice].systemVersion.floatValue<10.0)
+
 //颜色RGB
 #define RGBA(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 //rgb颜色转换（16进制->10进制）
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 //加载图片宏
 #define LOADIMAGE(file,type) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:type]]
+
 //是否是iPad   这个可以定义一个公共类来辨别机器类型
 #define isPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 

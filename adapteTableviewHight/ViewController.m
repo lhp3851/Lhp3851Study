@@ -119,7 +119,6 @@
     
     NSMutableArray *rootArray = [NSMutableArray arrayWithContentsOfFile:plistPath];//注意，如果想添加新的数据，需要NSMutable类型的
     NSMutableArray *array=[[NSMutableArray alloc]initWithObjects:@"1",@"2",@"3",@"4",nil,@"6", nil];
-//    NSLog(@"array.count:%ld",array.count);
     for (int i=0; i<array.count; i++) {
         if([array objectAtIndex:i]==nil){
             [array replaceObjectAtIndex:i withObject:[NSArray array]];
@@ -131,7 +130,6 @@
         if (object==nil) {
             object=[NSArray array];
         }
-//        NSLog(@"object1:%@",object);
     }
     [rootArray addObject:@"数组"];
     //获取应用程序沙盒的Documents目录

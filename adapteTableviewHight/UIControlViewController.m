@@ -24,10 +24,10 @@
 
 -(void)setTheScrollView{
     scrollView=[[UIScrollView alloc]initWithFrame:self.view.frame];
-    [scrollView setContentSize:CGSizeMake(screenWidth, screenHight)];
+    [scrollView setContentSize:CGSizeMake(kSCREENWIDTH, kSCREENHEIGHT)];
 
 //    for (int i=0; i<5; i++) {
-        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHight)];
+        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kSCREENWIDTH, kSCREENHEIGHT)];
         imageView.image=[UIImage imageNamed:[NSString stringWithFormat:@"new%i",4]];
         [scrollView addSubview:imageView];
 //    }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,6 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbt-Bb-ZWt">
+                    <rect key="frame" x="10" y="70" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="ZGx-Zq-5dG"/>
@@ -37,6 +41,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqJ-vf-Gwp">
+                    <rect key="frame" x="10" y="120" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="定位">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,6 +56,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWU-pw-RCN">
+                    <rect key="frame" x="10" y="220" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="新浪微博"/>
                     <userDefinedRuntimeAttributes>
@@ -63,6 +69,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3X9-HQ-90U">
+                    <rect key="frame" x="10" y="170" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="输入法处理">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -77,6 +84,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kN-VG-dBN">
+                    <rect key="frame" x="10" y="270" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="去评分"/>
                     <userDefinedRuntimeAttributes>
@@ -89,6 +97,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9O-CE-Hbp">
+                    <rect key="frame" x="10" y="320" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="代理和块"/>
                     <userDefinedRuntimeAttributes>
@@ -101,6 +110,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnh-gK-ugV">
+                    <rect key="frame" x="10" y="370" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="二维码"/>
                     <userDefinedRuntimeAttributes>
@@ -113,6 +123,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iq-ki-p1W">
+                    <rect key="frame" x="10" y="420" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="视图类"/>
                     <userDefinedRuntimeAttributes>
@@ -125,6 +136,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4v-dG-jnt">
+                    <rect key="frame" x="10" y="470" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="archiveData"/>
                     <connections>
@@ -132,6 +144,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fga-Me-w7f">
+                    <rect key="frame" x="10" y="520" width="82" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="趣味数学题"/>
                     <userDefinedRuntimeAttributes>
@@ -144,6 +157,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDL-vh-s7S">
+                    <rect key="frame" x="102" y="120" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="crash log"/>
                     <userDefinedRuntimeAttributes>
@@ -156,6 +170,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdr-bB-dIp">
+                    <rect key="frame" x="102" y="170" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="scrollView"/>
                     <userDefinedRuntimeAttributes>
@@ -168,6 +183,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXS-Gf-ydZ">
+                    <rect key="frame" x="102" y="220" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="打开app"/>
                     <userDefinedRuntimeAttributes>
@@ -180,6 +196,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Go-uMy">
+                    <rect key="frame" x="102" y="270" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="AFNetReachTest"/>
                     <userDefinedRuntimeAttributes>
@@ -192,6 +209,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIC-s7-jS5">
+                    <rect key="frame" x="102" y="320" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="AVFoundation"/>
                     <userDefinedRuntimeAttributes>
@@ -204,6 +222,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-iT-0MO">
+                    <rect key="frame" x="102" y="70" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="alertViewController"/>
                     <userDefinedRuntimeAttributes>
@@ -216,6 +235,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQn-cc-CUb">
+                    <rect key="frame" x="102" y="370" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="132" id="hDw-aW-r2V"/>
@@ -231,6 +251,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYu-oE-y8T">
+                    <rect key="frame" x="102" y="470" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="音效"/>
                     <userDefinedRuntimeAttributes>
@@ -243,6 +264,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBq-QO-5xU">
+                    <rect key="frame" x="102" y="420" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="132" id="iaS-GJ-hMb"/>
@@ -263,6 +285,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7H-On-Lp7">
+                    <rect key="frame" x="102" y="520" width="132" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="通知"/>
                     <userDefinedRuntimeAttributes>
@@ -275,6 +298,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-5q-wB1">
+                    <rect key="frame" x="249" y="70" width="116" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="警告"/>
                     <userDefinedRuntimeAttributes>
@@ -287,6 +311,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihX-vp-v3F">
+                    <rect key="frame" x="249" y="118" width="116" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="相机"/>
                     <userDefinedRuntimeAttributes>
@@ -296,6 +321,19 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="camera:" destination="-1" eventType="touchUpInside" id="vfD-tu-1BA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNc-eU-qHX">
+                    <rect key="frame" x="249" y="168" width="116" height="40"/>
+                    <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="相册"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="photos:" destination="-1" eventType="touchUpInside" id="2Sm-ny-4bd"/>
                     </connections>
                 </button>
             </subviews>
@@ -319,6 +357,7 @@
                 <constraint firstItem="4kN-VG-dBN" firstAttribute="top" secondItem="gWU-pw-RCN" secondAttribute="bottom" constant="10" id="CDi-bn-SaC"/>
                 <constraint firstItem="I7H-On-Lp7" firstAttribute="leading" secondItem="fga-Me-w7f" secondAttribute="trailing" constant="10" id="CcK-IE-t20"/>
                 <constraint firstAttribute="trailing" secondItem="Qx1-5q-wB1" secondAttribute="trailing" constant="10" id="DD7-8o-XLo"/>
+                <constraint firstItem="UNc-eU-qHX" firstAttribute="top" secondItem="ihX-vp-v3F" secondAttribute="bottom" constant="10" id="FN7-gf-4d0"/>
                 <constraint firstItem="lDL-vh-s7S" firstAttribute="width" secondItem="D8B-iT-0MO" secondAttribute="width" id="FyP-C6-Zuq"/>
                 <constraint firstItem="lDL-vh-s7S" firstAttribute="height" secondItem="eqJ-vf-Gwp" secondAttribute="height" id="GU9-KW-9jI"/>
                 <constraint firstItem="Qx1-5q-wB1" firstAttribute="height" secondItem="D8B-iT-0MO" secondAttribute="height" id="HU4-Zd-fnL"/>
@@ -366,6 +405,7 @@
                 <constraint firstItem="lDL-vh-s7S" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="fb0-Pi-sJW"/>
                 <constraint firstItem="ihX-vp-v3F" firstAttribute="width" secondItem="Qx1-5q-wB1" secondAttribute="width" id="fec-Po-52C"/>
                 <constraint firstItem="Pnh-gK-ugV" firstAttribute="leading" secondItem="f9O-CE-Hbp" secondAttribute="leading" id="gOH-yq-L1E"/>
+                <constraint firstItem="UNc-eU-qHX" firstAttribute="leading" secondItem="mdr-bB-dIp" secondAttribute="trailing" constant="15" id="hHf-Db-tEi"/>
                 <constraint firstItem="f9O-CE-Hbp" firstAttribute="leading" secondItem="4kN-VG-dBN" secondAttribute="leading" id="hSa-b8-A1Y"/>
                 <constraint firstItem="Pnh-gK-ugV" firstAttribute="width" secondItem="f9O-CE-Hbp" secondAttribute="width" id="hha-tP-dEW"/>
                 <constraint firstItem="3X9-HQ-90U" firstAttribute="leading" secondItem="eqJ-vf-Gwp" secondAttribute="leading" id="hul-Ud-8Wh"/>
@@ -375,9 +415,11 @@
                 <constraint firstItem="3X9-HQ-90U" firstAttribute="top" secondItem="eqJ-vf-Gwp" secondAttribute="bottom" constant="10" id="kgX-2G-sp8"/>
                 <constraint firstItem="hbt-Bb-ZWt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="krR-qZ-YW5"/>
                 <constraint firstItem="mdr-bB-dIp" firstAttribute="top" secondItem="lDL-vh-s7S" secondAttribute="bottom" constant="10" id="kuL-Le-Wvu"/>
+                <constraint firstItem="UNc-eU-qHX" firstAttribute="height" secondItem="ihX-vp-v3F" secondAttribute="height" id="l0I-bq-duH"/>
                 <constraint firstItem="XBq-QO-5xU" firstAttribute="width" secondItem="eQn-cc-CUb" secondAttribute="width" id="m0R-Cz-LDK"/>
                 <constraint firstItem="eqJ-vf-Gwp" firstAttribute="width" secondItem="hbt-Bb-ZWt" secondAttribute="width" id="m7f-Cd-ty7"/>
                 <constraint firstItem="f9O-CE-Hbp" firstAttribute="height" secondItem="4kN-VG-dBN" secondAttribute="height" id="oVJ-rP-TM7"/>
+                <constraint firstItem="UNc-eU-qHX" firstAttribute="width" secondItem="ihX-vp-v3F" secondAttribute="width" id="p2v-hj-6vc"/>
                 <constraint firstItem="Qx1-5q-wB1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="pOu-WB-FAq"/>
                 <constraint firstItem="hbt-Bb-ZWt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="pTT-Zj-kgw"/>
                 <constraint firstItem="XBq-QO-5xU" firstAttribute="top" secondItem="eQn-cc-CUb" secondAttribute="bottom" constant="10" id="pao-mC-OPS"/>
@@ -399,7 +441,7 @@
                     <exclude reference="UPv-ex-eAd"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="-879" y="-378"/>
+            <point key="canvasLocation" x="-1012" y="-457"/>
         </view>
     </objects>
 </document>

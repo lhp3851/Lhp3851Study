@@ -37,7 +37,7 @@
     CGRect frame = [self frame];
     self.introduction.text = text;
     self.introduction.numberOfLines = 0;
-    CGSize size = CGSizeMake(screenWidth, 1000);
+    CGSize size = CGSizeMake(kSCREENWIDTH, 1000);
     UIFont *font=[UIFont systemFontOfSize:14];
     UIColor *color=[UIColor blueColor];
     NSDictionary *attributeDic= [NSDictionary dictionaryWithObjectsAndKeys:

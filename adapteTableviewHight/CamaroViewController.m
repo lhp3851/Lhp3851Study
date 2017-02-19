@@ -20,8 +20,6 @@
 
 @implementation CamaroViewController
 
-
-
 -(UIView *)scanRectView{
     if (!_scanRectView) {
         CGSize windowSize = [UIScreen mainScreen].bounds.size;

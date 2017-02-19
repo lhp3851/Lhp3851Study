@@ -21,6 +21,7 @@
 #import "NotificationViewController.h"
 #import "AlertViewController.h"
 #import "CamaroViewController.h"
+#import "PhotosViewController.h"
 
 @interface feedbackViewController ()
 
@@ -66,13 +67,13 @@
 }
 
 -(IBAction)goToComment:(id)sende{
-    if (ios6) {
+    if (kSYSYTEMVERSION>=6&&kSYSYTEMVERSION<7) {
          [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APPID"]];
     }
-    else if (ios7) {
+    else if (kSYSYTEMVERSION>=7&&kSYSYTEMVERSION<8) {
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APPID"]];
     }
-    else if (ios8){
+    else if (kSYSYTEMVERSION>=8&&kSYSYTEMVERSION<9){
          [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APPID&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8"]];
     }
     else{
@@ -194,6 +195,11 @@
     CamaroViewController *cameraVC=[[CamaroViewController alloc]initWithNibName:@"CamaroViewController" bundle:nil];
     cameraVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:cameraVC animated:YES];
+}
+//相册
+-(IBAction)photos:(id)sender{
+    PhotosViewController *photosVC=[PhotosViewController new];
+    [self.navigationController pushViewController:photosVC animated:YES];
 }
 
 //水波纹动画

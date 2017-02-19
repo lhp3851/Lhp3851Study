@@ -63,4 +63,6 @@
 -(IBAction)AlertControoler:(id)sender;
 //相机📷
 -(IBAction)camera:(id)sender;
+//相册
+-(IBAction)photos:(id)sender;
 @end
