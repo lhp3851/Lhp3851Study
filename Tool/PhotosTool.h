@@ -25,12 +25,12 @@ typedef void(^PHStatus)(PHAuthorizationStatus status, BOOL result);
 
  @param PHStatus APP相册的权限 的block
  */
-+(void)libraryAuthorizationStation:(PHStatus)PHStatus;
++(void)libraryAuthorizationStation:(nonnull PHStatus)PHStatus;
 
 
 
 
-+(PHFetchResult<PHCollectionList *> *)photosCollectionListWitTtype:(PHCollectionListType)type subtype:(PHCollectionListSubtype)subtype options:(nullable PHFetchOptions *)options;
++(nullable PHFetchResult<PHCollectionList *> *)photosCollectionListWitTtype:(PHCollectionListType)type subtype:(PHCollectionListSubtype)subtype options:(nullable PHFetchOptions *)options;
 
 
 /**

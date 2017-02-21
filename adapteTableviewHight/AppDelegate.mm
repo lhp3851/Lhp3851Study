@@ -24,6 +24,7 @@ void UncaughtExceptionHandler(NSException *exception){
     NSArray *symbols = [exception callStackSymbols];
     NSString *reason = [exception reason];
     NSString *name = [exception name];
+    NSLog(@"异常：%@%@%@",symbols,reason,name);
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

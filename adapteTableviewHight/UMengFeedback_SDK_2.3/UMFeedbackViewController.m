@@ -629,7 +629,7 @@ const CGFloat kMessagesInputToolbarHeightDefault = 44.0f;
     UIImagePickerController *imagePicker = [UIImagePickerController new];
     imagePicker.delegate = self;
     imagePicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum | UIImagePickerControllerSourceTypePhotoLibrary;
-    [self presentModalViewController:imagePicker animated:YES];
+    [self presentViewController:imagePicker animated:YES completion:^{}];
     
 }
 
@@ -644,13 +644,13 @@ const CGFloat kMessagesInputToolbarHeightDefault = 44.0f;
         
         [_feedback post:@{UMFeedbackMediaTypeImage: image}];
         
-        [picker dismissModalViewControllerAnimated:YES];
+        [picker dismissViewControllerAnimated:YES completion:^{}];
     }
     
 }
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    [picker dismissModalViewControllerAnimated:YES];
+    [picker dismissViewControllerAnimated:YES completion:^{}];
 }
 
 - (void)sendButtonPressed:(UIButton *)button {

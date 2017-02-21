@@ -22,7 +22,7 @@ static singleton *singleInsistance=nil;
     }
     return singleInsistance;
 }
-/*//第二种获取单例的方法
+//*第二种获取单例的方法
 +(singleton *)sharedManager{
     static dispatch_once_t once;
     dispatch_once(&once, ^{
@@ -31,7 +31,7 @@ static singleton *singleInsistance=nil;
     
     return singleInsistance;
 }
- */
+ 
 
 -(id)init{
     @synchronized(self) {

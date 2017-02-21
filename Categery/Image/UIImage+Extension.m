@@ -79,6 +79,7 @@
     
     webImageOperation = [manager downloadImageWithURL:url options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         float progress = receivedSize / (float)expectedSize;
+        NSLog(@"----%f",progress);
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
         if (error) {
             if (failure) {
@@ -102,6 +103,7 @@
     SDWebImageManager *manager = [SDWebImageManager sharedManager];
     webImageOperation = [manager downloadImageWithURL:url options:SDWebImageContinueInBackground progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         float progress = receivedSize / (float)expectedSize;
+        NSLog(@"----%f",progress);
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
         if (error) {
             if (failure) {

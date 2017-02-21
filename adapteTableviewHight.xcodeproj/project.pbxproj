@@ -1888,6 +1888,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -1944,6 +1945,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;

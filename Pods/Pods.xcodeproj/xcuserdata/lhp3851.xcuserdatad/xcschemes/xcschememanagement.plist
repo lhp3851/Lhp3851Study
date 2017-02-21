@@ -8,56 +8,108 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>KissXML.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Pods-AdapteTableviewHight.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>Pods-AdapteTableviewHightTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 		<key>Pods-adapteTableviewHight.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>RealReachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>UMengFeedback.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>XMPPFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 		<key>iOS-WebP.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>libwebp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -87,7 +139,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>31985F56C790B712BACBD13567F58765</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>416B388906DEFAC81F0676F277AC9058</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AA17C95E926B760FD08E0B487DAEFA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6456FA442A22735D59ED72D401CDA5A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B1714E816AE794962516E2ECBB40A5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E9B5D4C859486461E21ACD13AC136AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,6 +189,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>808AC2F344F46A93ADA2EB66BD847287</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>81D4DB706E55CC777D2CD616BCBED337</key>
 		<dict>
 			<key>primary</key>
@@ -118,6 +205,11 @@
 			<true/>
 		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CB940AD7E4873BC33C591EC20145A3E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -147,12 +239,42 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A6D49C70FD55DA24D22324F2D9726CBE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC0D2D2B4EE7C873431AB3502859CA60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BD24FE4F674408A38E3F570AA7259E88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4C77C37067F7ECDEB34CD41CFD9EB7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DCAD82DC4BA8E3E3201C99A861CC950C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9712B49F61E28B71E38C18F9E4F3855</key>
 		<dict>
 			<key>primary</key>
 			<true/>

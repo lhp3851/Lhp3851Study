@@ -12,5 +12,5 @@
 +(UIViewController *)topViewContrroler;
 
 
-+(UIViewController *)topPresentViewController;
+//+(UIViewController *)topPresentViewController;
 @end

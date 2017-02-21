@@ -88,8 +88,8 @@
 
 - (void)keyboardWasShownR:(NSNotification*)aNotification{
     NSDictionary* info = [aNotification userInfo];
-    NSNumber *duration = [info objectForKey:UIKeyboardAnimationDurationUserInfoKey];
-    NSNumber *curve = [info objectForKey:UIKeyboardAnimationCurveUserInfoKey];
+//    NSNumber *duration = [info objectForKey:UIKeyboardAnimationDurationUserInfoKey];
+//    NSNumber *curve = [info objectForKey:UIKeyboardAnimationCurveUserInfoKey];
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;//得到鍵盤的高度
     NSLog(@"keyBoardShowned hight:%f",kbSize.height);
     if (kbSize.height!=0) {

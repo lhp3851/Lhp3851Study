@@ -145,7 +145,7 @@
 }
 
 -(IBAction)AFNetReachTest:(id)sender{
-    AFNetworkReachabilityManager *reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+    __weak AFNetworkReachabilityManager *reachabilityManager = [AFNetworkReachabilityManager sharedManager];
     [AFNetworkReachabilityManager managerForDomain:@"https://www.baidu.com"];
     [reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         if (status == AFNetworkReachabilityStatusNotReachable) {
