@@ -18,7 +18,7 @@ typedef void(^PHStatus)(PHAuthorizationStatus status, BOOL result);
 
  @return Photos单例
  */
-+(PHPhotoLibrary *)shareLibrary;
++(nonnull PHPhotoLibrary *)shareLibrary;
 
 /**
  获取APP对于相册的权限
