@@ -1,0 +1,6 @@
+framework module Pods_AdapteTableviewHight {
+  umbrella header "Pods-AdapteTableviewHight-umbrella.h"
+
+  export *
+  module * { export * }
+}

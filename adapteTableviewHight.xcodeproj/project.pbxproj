@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13B513881E5A8F200046FEB7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513871E5A8F200046FEB7 /* libresolv.tbd */; };
+		13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A31E5A90900046FEB7 /* CFNetwork.framework */; };
+		13B513A61E5A90A80046FEB7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A51E5A90A80046FEB7 /* libxml2.tbd */; };
+		13B513A81E5A90C30046FEB7 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A71E5A90C30046FEB7 /* libidn.a */; };
+		13B513B41E5ABD920046FEB7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513B31E5ABD920046FEB7 /* SDWebImage.framework */; };
+		13B513B61E5ABDA20046FEB7 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513B51E5ABDA20046FEB7 /* FMDB.framework */; };
+		13B513B81E5ABDB30046FEB7 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513B71E5ABDB30046FEB7 /* AFNetworking.framework */; };
 		7991C8FB1B1EB9D200606046 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991C8FA1B1EB9D200606046 /* AVFoundation.framework */; };
 		7991C94B1B1ED25F00606046 /* feedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9491B1ED25F00606046 /* feedbackViewController.m */; };
 		7991C94C1B1ED25F00606046 /* feedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7991C94A1B1ED25F00606046 /* feedbackViewController.xib */; };
@@ -75,7 +82,6 @@
 		7A5E871B1DC838B60005E7A1 /* CamaroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E87191DC838B60005E7A1 /* CamaroViewController.m */; };
 		7A5E871C1DC838B60005E7A1 /* CamaroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5E871A1DC838B60005E7A1 /* CamaroViewController.xib */; };
 		7A67184D1B9DD9AD0066F219 /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A67184C1B9DD9AD0066F219 /* plistdemo.plist */; };
-		7A806B8A1E5939EE0064F893 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A806B891E5939EE0064F893 /* libFMDB.a */; };
 		7A811BE51BD39EA600C962DA /* archiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A811BE41BD39EA600C962DA /* archiveData.m */; };
 		7A811BE81BD3A32B00C962DA /* archiveDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A811BE71BD3A32B00C962DA /* archiveDataViewController.m */; };
 		7A8136B71D1043C20003D75F /* DateToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8136B61D1043C20003D75F /* DateToolViewController.m */; };
@@ -101,9 +107,7 @@
 		7A8E5DFC1CDBA50B00DE2EF3 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E5DF91CDBA50B00DE2EF3 /* MainNavigationController.m */; };
 		7A8E5DFD1CDBA50B00DE2EF3 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E5DFB1CDBA50B00DE2EF3 /* MainTabBarController.m */; };
 		7A9530041D917ECD00202A98 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9530021D917ECD00202A98 /* UIImage+Extension.m */; };
-		7A9530061D917FBE00202A98 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9530051D917FBE00202A98 /* libSDWebImage.a */; };
 		7AB09B001BA9A7160042AC02 /* thirdInputHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB09AFF1BA9A7160042AC02 /* thirdInputHandleViewController.m */; };
-		7AD55EB41E595245004E6212 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD55EB31E595245004E6212 /* libAFNetworking.a */; };
 		7AD55EB81E5955DA004E6212 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD55EB71E5955DA004E6212 /* PhotosViewController.m */; };
 		7AD55EBC1E5956F5004E6212 /* PhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD55EBB1E5956F5004E6212 /* PhotosTool.m */; };
 		7AD55EC01E598E2A004E6212 /* ImagePickerRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD55EBF1E598E2A004E6212 /* ImagePickerRootViewController.m */; };
@@ -142,6 +146,8 @@
 		7AFDB6A41BB6372B00681CB9 /* UIControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDB6A21BB6372B00681CB9 /* UIControlViewController.m */; };
 		7AFDB6A51BB6372B00681CB9 /* UIControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AFDB6A31BB6372B00681CB9 /* UIControlViewController.xib */; };
 		7AFDB6A91BB694A600681CB9 /* FileOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDB6A81BB694A600681CB9 /* FileOperationViewController.m */; };
+		ED45A8E23AC18558D24D92E7 /* Pods_AdapteTableviewHight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D5030F92E1FAA0BE088B7E /* Pods_AdapteTableviewHight.framework */; };
+		FC587DA049E45F596FEF6143 /* Pods_AdapteTableviewHightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E758F2CEF02948D820206AD5 /* Pods_AdapteTableviewHightTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,7 +189,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHight.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHight/Pods-AdapteTableviewHight.release.xcconfig"; sourceTree = "<group>"; };
+		13B5137B1E5A872B0046FEB7 /* libXMPPFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPPFramework.a; path = "Pods/../build/Debug-iphoneos/XMPPFramework/libXMPPFramework.a"; sourceTree = "<group>"; };
+		13B513871E5A8F200046FEB7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		13B513891E5A8F400046FEB7 /* ServerlessDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = ServerlessDemo.xcdatamodel; path = Pods/XMPPFramework/Xcode/Examples/ServerlessDemo/ServerlessDemo.xcdatamodel; sourceTree = "<group>"; };
+		13B513A31E5A90900046FEB7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		13B513A51E5A90A80046FEB7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		13B513A71E5A90C30046FEB7 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidn.a; path = Pods/XMPPFramework/Vendor/libidn/libidn.a; sourceTree = "<group>"; };
+		13B513B31E5ABD920046FEB7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/adapteTableviewHight-crypbrmqlqeiqvbfvlnmoyscmbru/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		13B513B51E5ABDA20046FEB7 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "../../../Library/Developer/Xcode/DerivedData/adapteTableviewHight-crypbrmqlqeiqvbfvlnmoyscmbru/Build/Products/Debug-iphoneos/FMDB/FMDB.framework"; sourceTree = "<group>"; };
+		13B513B71E5ABDB30046FEB7 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/adapteTableviewHight-crypbrmqlqeiqvbfvlnmoyscmbru/Build/Products/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		73D5030F92E1FAA0BE088B7E /* Pods_AdapteTableviewHight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdapteTableviewHight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7991C8FA1B1EB9D200606046 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7991C9481B1ED25F00606046 /* feedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackViewController.h; sourceTree = "<group>"; };
 		7991C9491B1ED25F00606046 /* feedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackViewController.m; sourceTree = "<group>"; };
@@ -412,6 +429,8 @@
 		7AFDB6A71BB694A600681CB9 /* FileOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperationViewController.h; sourceTree = "<group>"; };
 		7AFDB6A81BB694A600681CB9 /* FileOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperationViewController.m; sourceTree = "<group>"; };
 		E0F1D03B04EAB58A441879A7 /* Pods-AdapteTableviewHight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHight/Pods-AdapteTableviewHight.debug.xcconfig"; sourceTree = "<group>"; };
+		E758F2CEF02948D820206AD5 /* Pods_AdapteTableviewHightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdapteTableviewHightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F713B2F02F74FF8567F98D59 /* Pods-AdapteTableviewHightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,17 +438,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD55EB41E595245004E6212 /* libAFNetworking.a in Frameworks */,
-				7A806B8A1E5939EE0064F893 /* libFMDB.a in Frameworks */,
-				7A9530061D917FBE00202A98 /* libSDWebImage.a in Frameworks */,
+				13B513B81E5ABDB30046FEB7 /* AFNetworking.framework in Frameworks */,
+				13B513B61E5ABDA20046FEB7 /* FMDB.framework in Frameworks */,
+				13B513B41E5ABD920046FEB7 /* SDWebImage.framework in Frameworks */,
+				13B513A61E5A90A80046FEB7 /* libxml2.tbd in Frameworks */,
+				13B513881E5A8F200046FEB7 /* libresolv.tbd in Frameworks */,
 				7A8830071CEE2FE00058EC07 /* libsqlite3.tbd in Frameworks */,
 				7A8E5DF31CDB989000DE2EF3 /* libsqlite3.0.tbd in Frameworks */,
 				7A8830051CEE2FCC0058EC07 /* libz.tbd in Frameworks */,
+				13B513A81E5A90C30046FEB7 /* libidn.a in Frameworks */,
 				7A882FF71CEE2D5F0058EC07 /* libtestDotA.a in Frameworks */,
 				7991CA011B1ED95A00606046 /* libUMFeedback.a in Frameworks */,
 				7991CA121B1ED95B00606046 /* libUMOpus.a in Frameworks */,
-				7A2CCFF71D4456E500CAD353 /* AudioToolbox.framework in Frameworks */,
 				7A25EA081D3672270072E0FA /* UMMobClick.framework in Frameworks */,
+				7A2CCFF71D4456E500CAD353 /* AudioToolbox.framework in Frameworks */,
+				13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */,
 				7A8830031CEE2FA80058EC07 /* CoreTelephony.framework in Frameworks */,
 				7AE7DC211B74EF46001998ED /* Security.framework in Frameworks */,
 				7AE7DC1F1B74EF3E001998ED /* CoreGraphics.framework in Frameworks */,
@@ -439,6 +462,7 @@
 				7991C9D31B1ED78B00606046 /* SystemConfiguration.framework in Frameworks */,
 				7AE9EAAE1BADB74E0013CB66 /* BaiduMapAPI.framework in Frameworks */,
 				7991C8FB1B1EB9D200606046 /* AVFoundation.framework in Frameworks */,
+				ED45A8E23AC18558D24D92E7 /* Pods_AdapteTableviewHight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +470,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC587DA049E45F596FEF6143 /* Pods_AdapteTableviewHightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +482,8 @@
 			children = (
 				E0F1D03B04EAB58A441879A7 /* Pods-AdapteTableviewHight.debug.xcconfig */,
 				13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */,
+				0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */,
+				F713B2F02F74FF8567F98D59 /* Pods-AdapteTableviewHightTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1302,6 +1329,15 @@
 		F1CCFEF2FFFE954FEBAF41DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13B513B71E5ABDB30046FEB7 /* AFNetworking.framework */,
+				13B513B51E5ABDA20046FEB7 /* FMDB.framework */,
+				13B513B31E5ABD920046FEB7 /* SDWebImage.framework */,
+				13B513A71E5A90C30046FEB7 /* libidn.a */,
+				13B513A51E5A90A80046FEB7 /* libxml2.tbd */,
+				13B513A31E5A90900046FEB7 /* CFNetwork.framework */,
+				13B513891E5A8F400046FEB7 /* ServerlessDemo.xcdatamodel */,
+				13B513871E5A8F200046FEB7 /* libresolv.tbd */,
+				13B5137B1E5A872B0046FEB7 /* libXMPPFramework.a */,
 				7AD55EB31E595245004E6212 /* libAFNetworking.a */,
 				7A806B891E5939EE0064F893 /* libFMDB.a */,
 				7A9530051D917FBE00202A98 /* libSDWebImage.a */,
@@ -1312,6 +1348,8 @@
 				7A8830021CEE2FA80058EC07 /* CoreTelephony.framework */,
 				7A882FF61CEE2D5F0058EC07 /* libtestDotA.a */,
 				7A8E5DF21CDB989000DE2EF3 /* libsqlite3.0.tbd */,
+				73D5030F92E1FAA0BE088B7E /* Pods_AdapteTableviewHight.framework */,
+				E758F2CEF02948D820206AD5 /* Pods_AdapteTableviewHightTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1343,9 +1381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79D740F21AE63FC80093AEEF /* Build configuration list for PBXNativeTarget "AdapteTableviewHightTests" */;
 			buildPhases = (
+				7F503167588C3A5172A84CE2 /* [CP] Check Pods Manifest.lock */,
 				79D740E11AE63FC80093AEEF /* Sources */,
 				79D740E21AE63FC80093AEEF /* Frameworks */,
 				79D740E31AE63FC80093AEEF /* Resources */,
+				F6112873DAC1780AC5CD1B20 /* [CP] Embed Pods Frameworks */,
+				032DBFFEEC1C75A133BF1A82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1363,7 +1404,7 @@
 		79D740C41AE63FC80093AEEF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = lhp3851;
 				TargetAttributes = {
 					79D740CB1AE63FC80093AEEF = {
@@ -1496,6 +1537,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		032DBFFEEC1C75A133BF1A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F503167588C3A5172A84CE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		A15B6CA700DDD98776B08641 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1523,7 +1594,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6112873DAC1780AC5CD1B20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7C8A1BF43C80E6E179DF412 /* [CP] Embed Pods Frameworks */ = {
@@ -1677,8 +1763,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1724,8 +1812,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1762,29 +1852,38 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/lhp3851/Downloads/BaiduMap_IOSSDK_v2/BaiduMap_IOSSDK_v2.8.1_Lib/Release-iphoneos",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/AdapteTableviewHight/baiduMap",
-					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.3",
 					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.5",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libresolv",
+					"\"$(SDKROOT)/usr/include/libresolv\"",
+					"$(PROJECT_DIR)/../../module",
+					"\"${PODS_ROOT}/XMPPFramework/Vendor\"",
+					"\"${PODS_ROOT}/XMPPFramework/module\"",
+					"\"${PODS_ROOT}/libwebp/src/webp\"",
+				);
 				INFOPLIST_FILE = AdapteTableviewHight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
-					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/XMPPFramework/Vendor/libidn",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ThirdLibrary/DotA",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3",
+					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmayun.apps.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1805,29 +1904,42 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/lhp3851/Downloads/BaiduMap_IOSSDK_v2/BaiduMap_IOSSDK_v2.8.1_Lib/Release-iphoneos",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/AdapteTableviewHight/baiduMap",
-					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.3",
 					"$(PROJECT_DIR)/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.5",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libresolv",
+					"\"$(SDKROOT)/usr/include/libresolv\"",
+					"$(PROJECT_DIR)/../../module",
+					"\"${PODS_ROOT}/XMPPFramework/Vendor\"",
+					"\"${PODS_ROOT}/XMPPFramework/module\"",
+					"\"${PODS_ROOT}/libwebp/src/webp\"",
+				);
 				INFOPLIST_FILE = AdapteTableviewHight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
 					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ThirdLibrary/DotA",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/XMPPFramework",
+					"$(PROJECT_DIR)/Pods/XMPPFramework/Vendor/libidn",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmayun.apps.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1838,6 +1950,7 @@
 		};
 		79D740F31AE63FC80093AEEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1858,6 +1971,7 @@
 		};
 		79D740F41AE63FC80093AEEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F713B2F02F74FF8567F98D59 /* Pods-AdapteTableviewHightTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

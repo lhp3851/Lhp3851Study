@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "79D740CB1AE63FC80093AEEF"
                BuildableName = "AdapteTableviewHight.app"
                BlueprintName = "AdapteTableviewHight"
-               ReferencedContainer = "container:AdapteTableviewHight.xcodeproj">
+               ReferencedContainer = "container:adapteTableviewHight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "79D740E41AE63FC80093AEEF"
                BuildableName = "AdapteTableviewHightTests.xctest"
                BlueprintName = "AdapteTableviewHightTests"
-               ReferencedContainer = "container:AdapteTableviewHight.xcodeproj">
+               ReferencedContainer = "container:adapteTableviewHight.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "79D740CB1AE63FC80093AEEF"
             BuildableName = "AdapteTableviewHight.app"
             BlueprintName = "AdapteTableviewHight"
-            ReferencedContainer = "container:AdapteTableviewHight.xcodeproj">
+            ReferencedContainer = "container:adapteTableviewHight.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "79D740CB1AE63FC80093AEEF"
             BuildableName = "AdapteTableviewHight.app"
             BlueprintName = "AdapteTableviewHight"
-            ReferencedContainer = "container:AdapteTableviewHight.xcodeproj">
+            ReferencedContainer = "container:adapteTableviewHight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "79D740CB1AE63FC80093AEEF"
             BuildableName = "AdapteTableviewHight.app"
             BlueprintName = "AdapteTableviewHight"
-            ReferencedContainer = "container:AdapteTableviewHight.xcodeproj">
+            ReferencedContainer = "container:adapteTableviewHight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

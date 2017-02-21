@@ -15,8 +15,5 @@
 
 @property (nonatomic,retain) UITableView *tableView;
 
-@property (nonatomic,retain) UITableView *tableView1;
-
-@property (nonatomic,retain) UITableView *tableView2;
 @end
 
