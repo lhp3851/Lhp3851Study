@@ -27,4 +27,5 @@ typedef void(^PikeredImageHandler)(UIImage *image);
 
 -(instancetype)initWithType:(UIImagePickerControllerSourceType)type allowEdit:(BOOL)editable ViewCotroler:(UIViewController *)viewController pickerImage:(PikeredImageHandler)pickerImageHandler;
 
+
 @end

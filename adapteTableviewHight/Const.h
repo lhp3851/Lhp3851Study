@@ -10,7 +10,11 @@
 #define Const_h
 
 
-#define HMARGIN 15
+#define kHMARGIN 15
+
+#define kMinute  60
+
+#define kHoure   60*kMinute
 
 #define kSTATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
 

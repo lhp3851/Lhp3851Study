@@ -9,6 +9,7 @@
 #import "PickerImageTool.h"
 #import "TopViewController.h"
 #import "WindowTool.h"
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface PickerImageTool ()
 @property(nonatomic,assign)UIImagePickerControllerSourceType openType;
@@ -64,11 +65,24 @@
 
 -(void)openPhotosLibraryWithType:(UIImagePickerControllerSourceType)openType{
     UIImagePickerController *imagePicker=[[UIImagePickerController alloc]init];
-    imagePicker.sourceType=openType;
+    imagePicker.sourceType   =openType;
     imagePicker.allowsEditing=YES;
     imagePicker.delegate     =self;
+    
+    /**
+     imagePicker.cameraViewTransform=CGAffineTransformMakeRotation(-1.5);
+     http://upload-images.jianshu.io/upload_images/301562-6a1c1a444d6a9c3a.png?imageView2/2/w/1240/q/100
+     http://upload-images.jianshu.io/upload_images/301562-bd6bbe0ebefb89d4.png?imageView2/2/w/1240/q/100
+     */
     [self.VControler presentViewController:imagePicker animated:YES completion:^{
-        NSLog(@"完成");
+        UINavigationController *nav=imagePicker.navigationController;
+        NSArray *viewControllers=[nav viewControllers];
+        UIViewController *topImagePickerVC=nav.topViewController;
+        
+        NSLog(@"topVC:%@",topImagePickerVC);
+        [viewControllers enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSLog(@"viewControllers :%ld-%@\n",idx,obj);
+        }];
     }];
 }
 

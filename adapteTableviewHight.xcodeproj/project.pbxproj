@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65611E5D8FC900279C9E /* PHAssetViewController.m */; };
+		133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */; };
+		133F656C1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */; };
 		13B513881E5A8F200046FEB7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513871E5A8F200046FEB7 /* libresolv.tbd */; };
 		13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A31E5A90900046FEB7 /* CFNetwork.framework */; };
 		13B513A61E5A90A80046FEB7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A51E5A90A80046FEB7 /* libxml2.tbd */; };
@@ -190,6 +193,12 @@
 
 /* Begin PBXFileReference section */
 		0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		133F65601E5D8FC900279C9E /* PHAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHAssetViewController.h; path = adapteTableviewHight/PHAssetViewController.h; sourceTree = SOURCE_ROOT; };
+		133F65611E5D8FC900279C9E /* PHAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHAssetViewController.m; path = adapteTableviewHight/PHAssetViewController.m; sourceTree = SOURCE_ROOT; };
+		133F65671E5D920300279C9E /* PHAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCollectionAssetTableViewCell.h; sourceTree = "<group>"; };
+		133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCollectionAssetTableViewCell.m; sourceTree = "<group>"; };
 		13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHight.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHight/Pods-AdapteTableviewHight.release.xcconfig"; sourceTree = "<group>"; };
 		13B5137B1E5A872B0046FEB7 /* libXMPPFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPPFramework.a; path = "Pods/../build/Debug-iphoneos/XMPPFramework/libXMPPFramework.a"; sourceTree = "<group>"; };
 		13B513871E5A8F200046FEB7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -1038,6 +1047,8 @@
 			children = (
 				7AD55EB61E5955DA004E6212 /* PhotosViewController.h */,
 				7AD55EB71E5955DA004E6212 /* PhotosViewController.m */,
+				133F65601E5D8FC900279C9E /* PHAssetViewController.h */,
+				133F65611E5D8FC900279C9E /* PHAssetViewController.m */,
 				7AD55EBE1E598E2A004E6212 /* ImagePickerRootViewController.h */,
 				7AD55EBF1E598E2A004E6212 /* ImagePickerRootViewController.m */,
 				7AD55EC11E59954C004E6212 /* PickerImageTool.h */,
@@ -1046,6 +1057,10 @@
 				7AD55EC51E599822004E6212 /* WindowTool.m */,
 				7AD55ECA1E599B7C004E6212 /* TopViewController.h */,
 				7AD55ECB1E599B7C004E6212 /* TopViewController.m */,
+				133F65671E5D920300279C9E /* PHAssetCollectionViewCell.h */,
+				133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */,
+				133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */,
+				133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */,
 			);
 			name = Photos;
 			sourceTree = "<group>";
@@ -1637,6 +1652,7 @@
 				7AFDB6A91BB694A600681CB9 /* FileOperationViewController.m in Sources */,
 				7A37DD4B1D119F9400020A46 /* MoireViewController.m in Sources */,
 				7AD55EC31E59954C004E6212 /* PickerImageTool.m in Sources */,
+				133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */,
 				7A882FC21CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.m in Sources */,
 				79CCC19F1AE7BD6A00FD10DA /* RequestPostUploadHelper.m in Sources */,
 				7A882FBF1CEE2AC70058EC07 /* UINavigationBar+KKStar.m in Sources */,
@@ -1665,6 +1681,7 @@
 				7AFDB6901BB636DC00681CB9 /* UINavigationViewViewController.m in Sources */,
 				79D740D51AE63FC80093AEEF /* AppDelegate.mm in Sources */,
 				79D740F81AE641B30093AEEF /* userModel.m in Sources */,
+				133F656C1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m in Sources */,
 				7A882FC11CEE2AC70058EC07 /* UITabBar+KKStar.m in Sources */,
 				7991C94B1B1ED25F00606046 /* feedbackViewController.m in Sources */,
 				7A882FF51CEE2C3B0058EC07 /* HookUtility.m in Sources */,
@@ -1677,6 +1694,7 @@
 				7A2CCFF51D4456B300CAD353 /* AudioEffectViewController.m in Sources */,
 				7AB09B001BA9A7160042AC02 /* thirdInputHandleViewController.m in Sources */,
 				7A811BE81BD3A32B00C962DA /* archiveDataViewController.m in Sources */,
+				133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */,
 				7A882FE81CEE2B3E0058EC07 /* SesameGlobalWebView.m in Sources */,
 				7A4721501DC74DA400827557 /* AlertViewController.m in Sources */,
 				7991CA181B1ED95B00606046 /* UMTextView.m in Sources */,

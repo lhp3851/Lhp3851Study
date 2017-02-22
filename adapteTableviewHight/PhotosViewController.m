@@ -21,8 +21,6 @@
     [super viewDidLoad];
     [self initData];
     [self initView];
-    NSLog(@"%f--%f",kNAVIGATION_BAR_HEIGHT,kSTATUS_BAR_HEIGHT);
-    
 }
 
 -(void)initData{
@@ -36,7 +34,7 @@
     self.view.backgroundColor=[UIColor whiteColor];
     
     UIButton *photosBTN=[UIButton buttonWithType:UIButtonTypeCustom];
-    [photosBTN setFrame:CGRectMake(HMARGIN, kSCREENHEIGHT/2-20, kSCREENWIDTH-2*HMARGIN, 40)];
+    [photosBTN setFrame:CGRectMake(kHMARGIN, kSCREENHEIGHT/2-20, kSCREENWIDTH-2*kHMARGIN, 40)];
     [photosBTN setTitle:@"相册" forState:UIControlStateNormal];
     [photosBTN setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [photosBTN addTarget:self action:@selector(openPhotosLibrary) forControlEvents:UIControlEventTouchUpInside];
@@ -44,36 +42,16 @@
 }
 
 -(void)openPhotosLibrary{
-    self.pickerImageTool=[[PickerImageTool alloc]initWithType:UIImagePickerControllerSourceTypePhotoLibrary allowEdit:YES ViewCotroler:self pickerImage:^(UIImage *image) {
-        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(HMARGIN, kNAVIGATION_BAR_HEIGHT+kSTATUS_BAR_HEIGHT, 200, 200)];
-        imageView.image=image;
-        [self.view addSubview:imageView];
-        self.pickerImageTool=nil;
-    }];
+//    self.pickerImageTool=[[PickerImageTool alloc]initWithType:UIImagePickerControllerSourceTypePhotoLibrary allowEdit:YES ViewCotroler:self pickerImage:^(UIImage *image) {
+//        UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(HMARGIN, kNAVIGATION_BAR_HEIGHT+kSTATUS_BAR_HEIGHT, 200, 200)];
+//        imageView.image=image;
+//        [self.view addSubview:imageView];
+//        self.pickerImageTool=nil;
+//    }];
+    ImagePickerRootViewController *imagePickerVC=[ImagePickerRootViewController shareImagePickerRootViewController];
+    [self.navigationController pushViewController:imagePickerVC animated:YES];
 }
 
--(void)getPhotosCollectionList{
-    PHFetchResult<PHCollectionList *> *photosResult= [PhotosTool photosCollectionListWitTtype:PHCollectionListTypeMomentList subtype:PHCollectionListSubtypeAny options:nil];
-    NSLog(@"共 %ld 个相册",photosResult.count);
-    [photosResult enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        PHCollectionList *list=obj;
-        NSLog(@"localizedLocationNames：%@，localizedTitle：%@",list.localizedLocationNames,list.localizedTitle);
-        
-        PHFetchResult<PHAssetCollection *> *photoCollectionResult=[PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeAny options:nil];
-        [photoCollectionResult enumerateObjectsUsingBlock:^(PHAssetCollection * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            PHFetchResult<PHAsset *> *assetResult=[PHAsset fetchAssetsInAssetCollection:obj options:nil];
-            NSLog(@"相册名字：%@，%ld",obj.localizedTitle,assetResult.count);
-//            [assetResult enumerateObjectsUsingBlock:^(PHAsset * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//
-//                [[PHImageManager defaultManager] requestImageForAsset:obj targetSize:CGSizeZero contentMode:PHImageContentModeAspectFill options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
-////                    UIImage *image=result;
-////                    NSLog(@"image.Description:%@",info);
-//                }];
-//            }];
-//
-        }];
-    }];
-}
 
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{

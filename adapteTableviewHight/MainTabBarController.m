@@ -57,8 +57,6 @@
     UITabBar *defaultTabBar=self.tabBar;
     UITabBarItem *frontPage=defaultTabBar.items[0];
     [frontPage defaultTabBarItem:@"首页" WithImage:@"" AndSelectImage:@""];
-    
-    
 }
 
 
