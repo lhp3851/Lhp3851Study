@@ -311,7 +311,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihX-vp-v3F">
-                    <rect key="frame" x="249" y="118" width="116" height="40"/>
+                    <rect key="frame" x="249" y="120" width="116" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="相机"/>
                     <userDefinedRuntimeAttributes>
@@ -324,7 +324,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNc-eU-qHX">
-                    <rect key="frame" x="249" y="168" width="116" height="40"/>
+                    <rect key="frame" x="249" y="170" width="116" height="40"/>
                     <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="相册"/>
                     <userDefinedRuntimeAttributes>
@@ -374,7 +374,7 @@
                 <constraint firstItem="fga-Me-w7f" firstAttribute="height" secondItem="u4v-dG-jnt" secondAttribute="height" id="OQ2-IP-Ead"/>
                 <constraint firstItem="XBq-QO-5xU" firstAttribute="leading" secondItem="1iq-ki-p1W" secondAttribute="trailing" constant="10" id="POj-k5-SiB"/>
                 <constraint firstItem="kIC-s7-jS5" firstAttribute="top" secondItem="pQr-Go-uMy" secondAttribute="bottom" constant="10" id="R3W-pW-oEe"/>
-                <constraint firstItem="ihX-vp-v3F" firstAttribute="top" secondItem="Qx1-5q-wB1" secondAttribute="bottom" constant="8" id="RBi-eh-erc"/>
+                <constraint firstItem="ihX-vp-v3F" firstAttribute="top" secondItem="Qx1-5q-wB1" secondAttribute="bottom" constant="10" id="RBi-eh-erc"/>
                 <constraint firstItem="YXS-Gf-ydZ" firstAttribute="top" secondItem="mdr-bB-dIp" secondAttribute="bottom" constant="10" id="SBp-Fa-XPQ"/>
                 <constraint firstItem="D8B-iT-0MO" firstAttribute="top" secondItem="hbt-Bb-ZWt" secondAttribute="top" id="TDj-QS-0m0"/>
                 <constraint firstItem="eqJ-vf-Gwp" firstAttribute="height" secondItem="hbt-Bb-ZWt" secondAttribute="height" id="TGr-3S-8zD"/>
@@ -441,7 +441,7 @@
                     <exclude reference="UPv-ex-eAd"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="-1012" y="-457"/>
+            <point key="canvasLocation" x="-1136" y="-578"/>
         </view>
     </objects>
 </document>

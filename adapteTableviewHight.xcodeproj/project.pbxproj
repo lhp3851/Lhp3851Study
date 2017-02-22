@@ -21,30 +21,6 @@
 		7991C94B1B1ED25F00606046 /* feedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9491B1ED25F00606046 /* feedbackViewController.m */; };
 		7991C94C1B1ED25F00606046 /* feedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7991C94A1B1ED25F00606046 /* feedbackViewController.xib */; };
 		7991C9D31B1ED78B00606046 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991C9D11B1ED77600606046 /* SystemConfiguration.framework */; };
-		7991CA011B1ED95A00606046 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991C9D91B1ED95A00606046 /* libUMFeedback.a */; };
-		7991CA021B1ED95B00606046 /* bubble_min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9DB1B1ED95A00606046 /* bubble_min@2x.png */; };
-		7991CA031B1ED95B00606046 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9DC1B1ED95A00606046 /* cancel@2x.png */; };
-		7991CA041B1ED95B00606046 /* microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9DD1B1ED95A00606046 /* microphone@2x.png */; };
-		7991CA051B1ED95B00606046 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9DE1B1ED95A00606046 /* save@2x.png */; };
-		7991CA061B1ED95B00606046 /* ToolViewInputText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9DF1B1ED95A00606046 /* ToolViewInputText@2x.png */; };
-		7991CA071B1ED95B00606046 /* ToolViewInputTextHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E01B1ED95A00606046 /* ToolViewInputTextHL@2x.png */; };
-		7991CA081B1ED95B00606046 /* ToolViewInputVoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E11B1ED95A00606046 /* ToolViewInputVoice@2x.png */; };
-		7991CA091B1ED95B00606046 /* ToolViewInputVoiceHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E21B1ED95A00606046 /* ToolViewInputVoiceHL@2x.png */; };
-		7991CA0A1B1ED95B00606046 /* umeng_add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E31B1ED95A00606046 /* umeng_add_photo@2x.png */; };
-		7991CA0B1B1ED95B00606046 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E41B1ED95A00606046 /* umeng_fb_audio_dialog_cancel@2x.png */; };
-		7991CA0C1B1ED95B00606046 /* umeng_fb_audio_dialog_content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E51B1ED95A00606046 /* umeng_fb_audio_dialog_content@2x.png */; };
-		7991CA0D1B1ED95B00606046 /* umeng_fb_audio_play_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E61B1ED95A00606046 /* umeng_fb_audio_play_01@2x.png */; };
-		7991CA0E1B1ED95B00606046 /* umeng_fb_audio_play_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E71B1ED95A00606046 /* umeng_fb_audio_play_02@2x.png */; };
-		7991CA0F1B1ED95B00606046 /* umeng_fb_audio_play_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E81B1ED95A00606046 /* umeng_fb_audio_play_03@2x.png */; };
-		7991CA101B1ED95B00606046 /* umeng_fb_audio_play_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991C9E91B1ED95A00606046 /* umeng_fb_audio_play_default@2x.png */; };
-		7991CA111B1ED95B00606046 /* UMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9EC1B1ED95A00606046 /* UMFeedbackViewController.m */; };
-		7991CA121B1ED95B00606046 /* libUMOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991C9EF1B1ED95A00606046 /* libUMOpus.a */; };
-		7991CA131B1ED95B00606046 /* UMChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9F41B1ED95A00606046 /* UMChatTableViewCell.m */; };
-		7991CA141B1ED95B00606046 /* UMChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9F61B1ED95A00606046 /* UMChatToolBar.m */; };
-		7991CA151B1ED95B00606046 /* UMFullScreenPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9F81B1ED95A00606046 /* UMFullScreenPhotoView.m */; };
-		7991CA161B1ED95B00606046 /* UMPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9FA1B1ED95A00606046 /* UMPostTableViewCell.m */; };
-		7991CA171B1ED95B00606046 /* UMRadialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9FC1B1ED95A00606046 /* UMRadialView.m */; };
-		7991CA181B1ED95B00606046 /* UMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991C9FE1B1ED95A00606046 /* UMTextView.m */; };
 		79CB50FF1B3A58CF00456DF5 /* DMLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB50FE1B3A58CF00456DF5 /* DMLazyScrollView.m */; };
 		79CB51031B3A591000456DF5 /* scrollToOtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB51011B3A591000456DF5 /* scrollToOtherPageViewController.m */; };
 		79CB51041B3A591000456DF5 /* scrollToOtherPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CB51021B3A591000456DF5 /* scrollToOtherPageViewController.xib */; };
@@ -82,6 +58,33 @@
 		7A531E211DC5A0AD0070C21C /* NotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A531E201DC5A0AD0070C21C /* NotificationModel.m */; };
 		7A531E251DC5A4D10070C21C /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A531E241DC5A4D10070C21C /* NotificationViewController.m */; };
 		7A531E271DC5B1C40070C21C /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A531E261DC5B1C40070C21C /* NotificationViewController.xib */; };
+		7A5486D41E5DC9D200F532C8 /* UMFeedbackLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486AB1E5DC9D200F532C8 /* UMFeedbackLocalizable.strings */; };
+		7A5486D51E5DC9D200F532C8 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5486AD1E5DC9D200F532C8 /* libUMFeedback.a */; };
+		7A5486D61E5DC9D200F532C8 /* bubble_min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486AF1E5DC9D200F532C8 /* bubble_min@2x.png */; };
+		7A5486D71E5DC9D200F532C8 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B01E5DC9D200F532C8 /* cancel@2x.png */; };
+		7A5486D81E5DC9D200F532C8 /* microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B11E5DC9D200F532C8 /* microphone@2x.png */; };
+		7A5486D91E5DC9D200F532C8 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B21E5DC9D200F532C8 /* save@2x.png */; };
+		7A5486DA1E5DC9D200F532C8 /* ToolViewInputText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B31E5DC9D200F532C8 /* ToolViewInputText@2x.png */; };
+		7A5486DB1E5DC9D200F532C8 /* ToolViewInputTextHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B41E5DC9D200F532C8 /* ToolViewInputTextHL@2x.png */; };
+		7A5486DC1E5DC9D200F532C8 /* ToolViewInputVoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B51E5DC9D200F532C8 /* ToolViewInputVoice@2x.png */; };
+		7A5486DD1E5DC9D200F532C8 /* ToolViewInputVoiceHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B61E5DC9D200F532C8 /* ToolViewInputVoiceHL@2x.png */; };
+		7A5486DE1E5DC9D200F532C8 /* umeng_add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B71E5DC9D200F532C8 /* umeng_add_photo@2x.png */; };
+		7A5486DF1E5DC9D200F532C8 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B81E5DC9D200F532C8 /* umeng_fb_audio_dialog_cancel@2x.png */; };
+		7A5486E01E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486B91E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png */; };
+		7A5486E11E5DC9D200F532C8 /* umeng_fb_audio_play_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486BA1E5DC9D200F532C8 /* umeng_fb_audio_play_01@2x.png */; };
+		7A5486E21E5DC9D200F532C8 /* umeng_fb_audio_play_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486BB1E5DC9D200F532C8 /* umeng_fb_audio_play_02@2x.png */; };
+		7A5486E31E5DC9D200F532C8 /* umeng_fb_audio_play_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486BC1E5DC9D200F532C8 /* umeng_fb_audio_play_03@2x.png */; };
+		7A5486E41E5DC9D200F532C8 /* umeng_fb_audio_play_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5486BD1E5DC9D200F532C8 /* umeng_fb_audio_play_default@2x.png */; };
+		7A5486E51E5DC9D200F532C8 /* UMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486C01E5DC9D200F532C8 /* UMFeedbackViewController.m */; };
+		7A5486E61E5DC9D200F532C8 /* libUMOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5486C31E5DC9D200F532C8 /* libUMOpus.a */; };
+		7A5486E71E5DC9D200F532C8 /* UMChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486C81E5DC9D200F532C8 /* UMChatTableViewCell.m */; };
+		7A5486E81E5DC9D200F532C8 /* UMChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486CA1E5DC9D200F532C8 /* UMChatToolBar.m */; };
+		7A5486E91E5DC9D200F532C8 /* UMFullScreenPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486CC1E5DC9D200F532C8 /* UMFullScreenPhotoView.m */; };
+		7A5486EA1E5DC9D200F532C8 /* UMPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486CE1E5DC9D200F532C8 /* UMPostTableViewCell.m */; };
+		7A5486EB1E5DC9D200F532C8 /* UMRadialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486D01E5DC9D200F532C8 /* UMRadialView.m */; };
+		7A5486EC1E5DC9D200F532C8 /* UMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486D21E5DC9D200F532C8 /* UMTextView.m */; };
+		7A5486F01E5DD26700F532C8 /* ConnactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486EF1E5DD26700F532C8 /* ConnactViewController.m */; };
+		7A5486F41E5DD41E00F532C8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5486F31E5DD41E00F532C8 /* SettingViewController.m */; };
 		7A5E871B1DC838B60005E7A1 /* CamaroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E87191DC838B60005E7A1 /* CamaroViewController.m */; };
 		7A5E871C1DC838B60005E7A1 /* CamaroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5E871A1DC838B60005E7A1 /* CamaroViewController.xib */; };
 		7A67184D1B9DD9AD0066F219 /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A67184C1B9DD9AD0066F219 /* plistdemo.plist */; };
@@ -215,43 +218,6 @@
 		7991C9491B1ED25F00606046 /* feedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackViewController.m; sourceTree = "<group>"; };
 		7991C94A1B1ED25F00606046 /* feedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = feedbackViewController.xib; sourceTree = "<group>"; };
 		7991C9D11B1ED77600606046 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		7991C9D81B1ED95A00606046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/UMFeedbackLocalizable.strings; sourceTree = "<group>"; };
-		7991C9D91B1ED95A00606046 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
-		7991C9DB1B1ED95A00606046 /* bubble_min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min@2x.png"; sourceTree = "<group>"; };
-		7991C9DC1B1ED95A00606046 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
-		7991C9DD1B1ED95A00606046 /* microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@2x.png"; sourceTree = "<group>"; };
-		7991C9DE1B1ED95A00606046 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
-		7991C9DF1B1ED95A00606046 /* ToolViewInputText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputText@2x.png"; sourceTree = "<group>"; };
-		7991C9E01B1ED95A00606046 /* ToolViewInputTextHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputTextHL@2x.png"; sourceTree = "<group>"; };
-		7991C9E11B1ED95A00606046 /* ToolViewInputVoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoice@2x.png"; sourceTree = "<group>"; };
-		7991C9E21B1ED95A00606046 /* ToolViewInputVoiceHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoiceHL@2x.png"; sourceTree = "<group>"; };
-		7991C9E31B1ED95A00606046 /* umeng_add_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_add_photo@2x.png"; sourceTree = "<group>"; };
-		7991C9E41B1ED95A00606046 /* umeng_fb_audio_dialog_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_cancel@2x.png"; sourceTree = "<group>"; };
-		7991C9E51B1ED95A00606046 /* umeng_fb_audio_dialog_content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_content@2x.png"; sourceTree = "<group>"; };
-		7991C9E61B1ED95A00606046 /* umeng_fb_audio_play_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_01@2x.png"; sourceTree = "<group>"; };
-		7991C9E71B1ED95A00606046 /* umeng_fb_audio_play_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_02@2x.png"; sourceTree = "<group>"; };
-		7991C9E81B1ED95A00606046 /* umeng_fb_audio_play_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_03@2x.png"; sourceTree = "<group>"; };
-		7991C9E91B1ED95A00606046 /* umeng_fb_audio_play_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_default@2x.png"; sourceTree = "<group>"; };
-		7991C9EA1B1ED95A00606046 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
-		7991C9EB1B1ED95A00606046 /* UMFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedbackViewController.h; sourceTree = "<group>"; };
-		7991C9EC1B1ED95A00606046 /* UMFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMFeedbackViewController.m; sourceTree = "<group>"; };
-		7991C9ED1B1ED95A00606046 /* UMOpenMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpenMacros.h; sourceTree = "<group>"; };
-		7991C9EF1B1ED95A00606046 /* libUMOpus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMOpus.a; sourceTree = "<group>"; };
-		7991C9F01B1ED95A00606046 /* UMOpus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpus.h; sourceTree = "<group>"; };
-		7991C9F11B1ED95A00606046 /* UMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRecorder.h; sourceTree = "<group>"; };
-		7991C9F31B1ED95A00606046 /* UMChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMChatTableViewCell.h; sourceTree = "<group>"; };
-		7991C9F41B1ED95A00606046 /* UMChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMChatTableViewCell.m; sourceTree = "<group>"; };
-		7991C9F51B1ED95A00606046 /* UMChatToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMChatToolBar.h; sourceTree = "<group>"; };
-		7991C9F61B1ED95A00606046 /* UMChatToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMChatToolBar.m; sourceTree = "<group>"; };
-		7991C9F71B1ED95A00606046 /* UMFullScreenPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFullScreenPhotoView.h; sourceTree = "<group>"; };
-		7991C9F81B1ED95A00606046 /* UMFullScreenPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMFullScreenPhotoView.m; sourceTree = "<group>"; };
-		7991C9F91B1ED95A00606046 /* UMPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPostTableViewCell.h; sourceTree = "<group>"; };
-		7991C9FA1B1ED95A00606046 /* UMPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPostTableViewCell.m; sourceTree = "<group>"; };
-		7991C9FB1B1ED95A00606046 /* UMRadialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRadialView.h; sourceTree = "<group>"; };
-		7991C9FC1B1ED95A00606046 /* UMRadialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMRadialView.m; sourceTree = "<group>"; };
-		7991C9FD1B1ED95A00606046 /* UMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTextView.h; sourceTree = "<group>"; };
-		7991C9FE1B1ED95A00606046 /* UMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTextView.m; sourceTree = "<group>"; };
-		7991C9FF1B1ED95A00606046 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMFeedbackLocalizable.strings"; sourceTree = "<group>"; };
 		79CB50FD1B3A58CF00456DF5 /* DMLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLazyScrollView.h; sourceTree = "<group>"; };
 		79CB50FE1B3A58CF00456DF5 /* DMLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLazyScrollView.m; sourceTree = "<group>"; };
 		79CB51001B3A591000456DF5 /* scrollToOtherPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollToOtherPageViewController.h; sourceTree = "<group>"; };
@@ -316,6 +282,47 @@
 		7A531E231DC5A4D10070C21C /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationViewController.h; path = adapteTableviewHight/Controller/NotificationViewController.h; sourceTree = SOURCE_ROOT; };
 		7A531E241DC5A4D10070C21C /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationViewController.m; path = adapteTableviewHight/Controller/NotificationViewController.m; sourceTree = SOURCE_ROOT; };
 		7A531E261DC5B1C40070C21C /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		7A5486AC1E5DC9D200F532C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/UMFeedbackLocalizable.strings; sourceTree = "<group>"; };
+		7A5486AD1E5DC9D200F532C8 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
+		7A5486AF1E5DC9D200F532C8 /* bubble_min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min@2x.png"; sourceTree = "<group>"; };
+		7A5486B01E5DC9D200F532C8 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		7A5486B11E5DC9D200F532C8 /* microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@2x.png"; sourceTree = "<group>"; };
+		7A5486B21E5DC9D200F532C8 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		7A5486B31E5DC9D200F532C8 /* ToolViewInputText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputText@2x.png"; sourceTree = "<group>"; };
+		7A5486B41E5DC9D200F532C8 /* ToolViewInputTextHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputTextHL@2x.png"; sourceTree = "<group>"; };
+		7A5486B51E5DC9D200F532C8 /* ToolViewInputVoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoice@2x.png"; sourceTree = "<group>"; };
+		7A5486B61E5DC9D200F532C8 /* ToolViewInputVoiceHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoiceHL@2x.png"; sourceTree = "<group>"; };
+		7A5486B71E5DC9D200F532C8 /* umeng_add_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_add_photo@2x.png"; sourceTree = "<group>"; };
+		7A5486B81E5DC9D200F532C8 /* umeng_fb_audio_dialog_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_cancel@2x.png"; sourceTree = "<group>"; };
+		7A5486B91E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_content@2x.png"; sourceTree = "<group>"; };
+		7A5486BA1E5DC9D200F532C8 /* umeng_fb_audio_play_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_01@2x.png"; sourceTree = "<group>"; };
+		7A5486BB1E5DC9D200F532C8 /* umeng_fb_audio_play_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_02@2x.png"; sourceTree = "<group>"; };
+		7A5486BC1E5DC9D200F532C8 /* umeng_fb_audio_play_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_03@2x.png"; sourceTree = "<group>"; };
+		7A5486BD1E5DC9D200F532C8 /* umeng_fb_audio_play_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_default@2x.png"; sourceTree = "<group>"; };
+		7A5486BE1E5DC9D200F532C8 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
+		7A5486BF1E5DC9D200F532C8 /* UMFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedbackViewController.h; sourceTree = "<group>"; };
+		7A5486C01E5DC9D200F532C8 /* UMFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMFeedbackViewController.m; sourceTree = "<group>"; };
+		7A5486C11E5DC9D200F532C8 /* UMOpenMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpenMacros.h; sourceTree = "<group>"; };
+		7A5486C31E5DC9D200F532C8 /* libUMOpus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMOpus.a; sourceTree = "<group>"; };
+		7A5486C41E5DC9D200F532C8 /* UMOpus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpus.h; sourceTree = "<group>"; };
+		7A5486C51E5DC9D200F532C8 /* UMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRecorder.h; sourceTree = "<group>"; };
+		7A5486C71E5DC9D200F532C8 /* UMChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMChatTableViewCell.h; sourceTree = "<group>"; };
+		7A5486C81E5DC9D200F532C8 /* UMChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMChatTableViewCell.m; sourceTree = "<group>"; };
+		7A5486C91E5DC9D200F532C8 /* UMChatToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMChatToolBar.h; sourceTree = "<group>"; };
+		7A5486CA1E5DC9D200F532C8 /* UMChatToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMChatToolBar.m; sourceTree = "<group>"; };
+		7A5486CB1E5DC9D200F532C8 /* UMFullScreenPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFullScreenPhotoView.h; sourceTree = "<group>"; };
+		7A5486CC1E5DC9D200F532C8 /* UMFullScreenPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMFullScreenPhotoView.m; sourceTree = "<group>"; };
+		7A5486CD1E5DC9D200F532C8 /* UMPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPostTableViewCell.h; sourceTree = "<group>"; };
+		7A5486CE1E5DC9D200F532C8 /* UMPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPostTableViewCell.m; sourceTree = "<group>"; };
+		7A5486CF1E5DC9D200F532C8 /* UMRadialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRadialView.h; sourceTree = "<group>"; };
+		7A5486D01E5DC9D200F532C8 /* UMRadialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMRadialView.m; sourceTree = "<group>"; };
+		7A5486D11E5DC9D200F532C8 /* UMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTextView.h; sourceTree = "<group>"; };
+		7A5486D21E5DC9D200F532C8 /* UMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTextView.m; sourceTree = "<group>"; };
+		7A5486D31E5DC9D200F532C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMFeedbackLocalizable.strings"; sourceTree = "<group>"; };
+		7A5486EE1E5DD26700F532C8 /* ConnactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnactViewController.h; path = adapteTableviewHight/ConnactViewController.h; sourceTree = SOURCE_ROOT; };
+		7A5486EF1E5DD26700F532C8 /* ConnactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnactViewController.m; path = adapteTableviewHight/ConnactViewController.m; sourceTree = SOURCE_ROOT; };
+		7A5486F21E5DD41E00F532C8 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		7A5486F31E5DD41E00F532C8 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		7A54880A1CEE23BC002E4294 /* CategeryOrExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategeryOrExtension.h; sourceTree = "<group>"; };
 		7A5E87181DC838B60005E7A1 /* CamaroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CamaroViewController.h; path = adapteTableviewHight/CamaroViewController.h; sourceTree = SOURCE_ROOT; };
 		7A5E87191DC838B60005E7A1 /* CamaroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CamaroViewController.m; path = adapteTableviewHight/CamaroViewController.m; sourceTree = SOURCE_ROOT; };
@@ -457,10 +464,10 @@
 				7A8830051CEE2FCC0058EC07 /* libz.tbd in Frameworks */,
 				13B513A81E5A90C30046FEB7 /* libidn.a in Frameworks */,
 				7A882FF71CEE2D5F0058EC07 /* libtestDotA.a in Frameworks */,
-				7991CA011B1ED95A00606046 /* libUMFeedback.a in Frameworks */,
-				7991CA121B1ED95B00606046 /* libUMOpus.a in Frameworks */,
 				7A25EA081D3672270072E0FA /* UMMobClick.framework in Frameworks */,
 				7A2CCFF71D4456E500CAD353 /* AudioToolbox.framework in Frameworks */,
+				7A5486E61E5DC9D200F532C8 /* libUMOpus.a in Frameworks */,
+				7A5486D51E5DC9D200F532C8 /* libUMFeedback.a in Frameworks */,
 				13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */,
 				7A8830031CEE2FA80058EC07 /* CoreTelephony.framework in Frameworks */,
 				7AE7DC211B74EF46001998ED /* Security.framework in Frameworks */,
@@ -523,10 +530,10 @@
 		7991C9051B1EC56E00606046 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				7A5486AA1E5DC9D200F532C8 /* UMengFeedback_SDK_2.3 */,
 				7A882FF81CEE2E3F0058EC07 /* DotA */,
 				7AE9EAAC1BADB74E0013CB66 /* baiduMap */,
 				79CB50FC1B3A58CF00456DF5 /* DMLazyScrollView */,
-				7991C9D61B1ED95A00606046 /* UMengFeedback_SDK_2.3 */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -543,74 +550,6 @@
 				7991C8FA1B1EB9D200606046 /* AVFoundation.framework */,
 			);
 			name = framwork;
-			sourceTree = "<group>";
-		};
-		7991C9D61B1ED95A00606046 /* UMengFeedback_SDK_2.3 */ = {
-			isa = PBXGroup;
-			children = (
-				7991C9D71B1ED95A00606046 /* UMFeedbackLocalizable.strings */,
-				7991C9D91B1ED95A00606046 /* libUMFeedback.a */,
-				7991C9DA1B1ED95A00606046 /* Resources */,
-				7991C9EA1B1ED95A00606046 /* UMFeedback.h */,
-				7991C9EB1B1ED95A00606046 /* UMFeedbackViewController.h */,
-				7991C9EC1B1ED95A00606046 /* UMFeedbackViewController.m */,
-				7991C9ED1B1ED95A00606046 /* UMOpenMacros.h */,
-				7991C9EE1B1ED95A00606046 /* UMOpus */,
-				7991C9F11B1ED95A00606046 /* UMRecorder.h */,
-				7991C9F21B1ED95A00606046 /* Views */,
-			);
-			name = UMengFeedback_SDK_2.3;
-			path = AdapteTableviewHight/UMengFeedback_SDK_2.3;
-			sourceTree = "<group>";
-		};
-		7991C9DA1B1ED95A00606046 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7991C9DB1B1ED95A00606046 /* bubble_min@2x.png */,
-				7991C9DC1B1ED95A00606046 /* cancel@2x.png */,
-				7991C9DD1B1ED95A00606046 /* microphone@2x.png */,
-				7991C9DE1B1ED95A00606046 /* save@2x.png */,
-				7991C9DF1B1ED95A00606046 /* ToolViewInputText@2x.png */,
-				7991C9E01B1ED95A00606046 /* ToolViewInputTextHL@2x.png */,
-				7991C9E11B1ED95A00606046 /* ToolViewInputVoice@2x.png */,
-				7991C9E21B1ED95A00606046 /* ToolViewInputVoiceHL@2x.png */,
-				7991C9E31B1ED95A00606046 /* umeng_add_photo@2x.png */,
-				7991C9E41B1ED95A00606046 /* umeng_fb_audio_dialog_cancel@2x.png */,
-				7991C9E51B1ED95A00606046 /* umeng_fb_audio_dialog_content@2x.png */,
-				7991C9E61B1ED95A00606046 /* umeng_fb_audio_play_01@2x.png */,
-				7991C9E71B1ED95A00606046 /* umeng_fb_audio_play_02@2x.png */,
-				7991C9E81B1ED95A00606046 /* umeng_fb_audio_play_03@2x.png */,
-				7991C9E91B1ED95A00606046 /* umeng_fb_audio_play_default@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7991C9EE1B1ED95A00606046 /* UMOpus */ = {
-			isa = PBXGroup;
-			children = (
-				7991C9EF1B1ED95A00606046 /* libUMOpus.a */,
-				7991C9F01B1ED95A00606046 /* UMOpus.h */,
-			);
-			path = UMOpus;
-			sourceTree = "<group>";
-		};
-		7991C9F21B1ED95A00606046 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7991C9F31B1ED95A00606046 /* UMChatTableViewCell.h */,
-				7991C9F41B1ED95A00606046 /* UMChatTableViewCell.m */,
-				7991C9F51B1ED95A00606046 /* UMChatToolBar.h */,
-				7991C9F61B1ED95A00606046 /* UMChatToolBar.m */,
-				7991C9F71B1ED95A00606046 /* UMFullScreenPhotoView.h */,
-				7991C9F81B1ED95A00606046 /* UMFullScreenPhotoView.m */,
-				7991C9F91B1ED95A00606046 /* UMPostTableViewCell.h */,
-				7991C9FA1B1ED95A00606046 /* UMPostTableViewCell.m */,
-				7991C9FB1B1ED95A00606046 /* UMRadialView.h */,
-				7991C9FC1B1ED95A00606046 /* UMRadialView.m */,
-				7991C9FD1B1ED95A00606046 /* UMTextView.h */,
-				7991C9FE1B1ED95A00606046 /* UMTextView.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		79CB50FB1B3A585C00456DF5 /* ScrollToOtherPage */ = {
@@ -659,6 +598,7 @@
 				7AEDA51C1BB8DA0C00069D34 /* SocketIMForService.xcodeproj */,
 				7AEDA5641BB9162500069D34 /* socketForClient.xcodeproj */,
 				79D740CE1AE63FC80093AEEF /* LHPStudy */,
+				7A4769881CDBA8EB00E1B421 /* TabBar */,
 				7A882FE31CEE2B3E0058EC07 /* Tool */,
 				7A47698A1CDBA94D00E1B421 /* Other */,
 				7991C9051B1EC56E00606046 /* lib */,
@@ -683,6 +623,8 @@
 		79D740CE1AE63FC80093AEEF /* LHPStudy */ = {
 			isa = PBXGroup;
 			children = (
+				7A5486F11E5DD40C00F532C8 /* Setting */,
+				7A5486ED1E5DD24500F532C8 /* Friend */,
 				7AE021521CEFF39900227053 /* AVFoundation */,
 				7AE0214C1CEFEDE800227053 /* RequestManager */,
 				7AE0214A1CEFEDE800227053 /* Controller */,
@@ -855,7 +797,7 @@
 				7A8E5DFB1CDBA50B00DE2EF3 /* MainTabBarController.m */,
 			);
 			name = TabBar;
-			path = ../AdapteTableviewHight;
+			path = AdapteTableviewHight;
 			sourceTree = "<group>";
 		};
 		7A47698A1CDBA94D00E1B421 /* Other */ = {
@@ -908,6 +850,92 @@
 			name = Notification;
 			sourceTree = "<group>";
 		};
+		7A5486AA1E5DC9D200F532C8 /* UMengFeedback_SDK_2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486AB1E5DC9D200F532C8 /* UMFeedbackLocalizable.strings */,
+				7A5486AD1E5DC9D200F532C8 /* libUMFeedback.a */,
+				7A5486AE1E5DC9D200F532C8 /* Resources */,
+				7A5486BE1E5DC9D200F532C8 /* UMFeedback.h */,
+				7A5486BF1E5DC9D200F532C8 /* UMFeedbackViewController.h */,
+				7A5486C01E5DC9D200F532C8 /* UMFeedbackViewController.m */,
+				7A5486C11E5DC9D200F532C8 /* UMOpenMacros.h */,
+				7A5486C21E5DC9D200F532C8 /* UMOpus */,
+				7A5486C51E5DC9D200F532C8 /* UMRecorder.h */,
+				7A5486C61E5DC9D200F532C8 /* Views */,
+			);
+			name = UMengFeedback_SDK_2.3;
+			path = adapteTableviewHight/UMengFeedback_SDK_2.3;
+			sourceTree = "<group>";
+		};
+		7A5486AE1E5DC9D200F532C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486AF1E5DC9D200F532C8 /* bubble_min@2x.png */,
+				7A5486B01E5DC9D200F532C8 /* cancel@2x.png */,
+				7A5486B11E5DC9D200F532C8 /* microphone@2x.png */,
+				7A5486B21E5DC9D200F532C8 /* save@2x.png */,
+				7A5486B31E5DC9D200F532C8 /* ToolViewInputText@2x.png */,
+				7A5486B41E5DC9D200F532C8 /* ToolViewInputTextHL@2x.png */,
+				7A5486B51E5DC9D200F532C8 /* ToolViewInputVoice@2x.png */,
+				7A5486B61E5DC9D200F532C8 /* ToolViewInputVoiceHL@2x.png */,
+				7A5486B71E5DC9D200F532C8 /* umeng_add_photo@2x.png */,
+				7A5486B81E5DC9D200F532C8 /* umeng_fb_audio_dialog_cancel@2x.png */,
+				7A5486B91E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png */,
+				7A5486BA1E5DC9D200F532C8 /* umeng_fb_audio_play_01@2x.png */,
+				7A5486BB1E5DC9D200F532C8 /* umeng_fb_audio_play_02@2x.png */,
+				7A5486BC1E5DC9D200F532C8 /* umeng_fb_audio_play_03@2x.png */,
+				7A5486BD1E5DC9D200F532C8 /* umeng_fb_audio_play_default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A5486C21E5DC9D200F532C8 /* UMOpus */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486C31E5DC9D200F532C8 /* libUMOpus.a */,
+				7A5486C41E5DC9D200F532C8 /* UMOpus.h */,
+			);
+			path = UMOpus;
+			sourceTree = "<group>";
+		};
+		7A5486C61E5DC9D200F532C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486C71E5DC9D200F532C8 /* UMChatTableViewCell.h */,
+				7A5486C81E5DC9D200F532C8 /* UMChatTableViewCell.m */,
+				7A5486C91E5DC9D200F532C8 /* UMChatToolBar.h */,
+				7A5486CA1E5DC9D200F532C8 /* UMChatToolBar.m */,
+				7A5486CB1E5DC9D200F532C8 /* UMFullScreenPhotoView.h */,
+				7A5486CC1E5DC9D200F532C8 /* UMFullScreenPhotoView.m */,
+				7A5486CD1E5DC9D200F532C8 /* UMPostTableViewCell.h */,
+				7A5486CE1E5DC9D200F532C8 /* UMPostTableViewCell.m */,
+				7A5486CF1E5DC9D200F532C8 /* UMRadialView.h */,
+				7A5486D01E5DC9D200F532C8 /* UMRadialView.m */,
+				7A5486D11E5DC9D200F532C8 /* UMTextView.h */,
+				7A5486D21E5DC9D200F532C8 /* UMTextView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A5486ED1E5DD24500F532C8 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486EE1E5DD26700F532C8 /* ConnactViewController.h */,
+				7A5486EF1E5DD26700F532C8 /* ConnactViewController.m */,
+			);
+			name = Friend;
+			sourceTree = "<group>";
+		};
+		7A5486F11E5DD40C00F532C8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7A5486F21E5DD41E00F532C8 /* SettingViewController.h */,
+				7A5486F31E5DD41E00F532C8 /* SettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
 		7A5E87131DC838910005E7A1 /* Camaro */ = {
 			isa = PBXGroup;
 			children = (
@@ -957,7 +985,6 @@
 				7A882FB81CEE2AC70058EC07 /* UITabBar+KKStar.m */,
 				7A882FB91CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.h */,
 				7A882FBA1CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.m */,
-				7A4769881CDBA8EB00E1B421 /* TabBar */,
 			);
 			path = Categery;
 			sourceTree = "<group>";
@@ -1498,47 +1525,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7991CA0A1B1ED95B00606046 /* umeng_add_photo@2x.png in Resources */,
-				7991CA0B1B1ED95B00606046 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */,
-				7991CA0F1B1ED95B00606046 /* umeng_fb_audio_play_03@2x.png in Resources */,
 				7A37DD4C1D119F9400020A46 /* MoireViewController.xib in Resources */,
-				7991CA0E1B1ED95B00606046 /* umeng_fb_audio_play_02@2x.png in Resources */,
+				7A5486DF1E5DC9D200F532C8 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */,
 				7A531E271DC5B1C40070C21C /* NotificationViewController.xib in Resources */,
 				7A2CD00C1D445D7700CAD353 /* iosshare.jpg in Resources */,
+				7A5486DA1E5DC9D200F532C8 /* ToolViewInputText@2x.png in Resources */,
 				79CCC19C1AE7A56E00FD10DA /* baseTabarViewController.xib in Resources */,
 				7AFDB6911BB636DC00681CB9 /* UINavigationViewViewController.xib in Resources */,
-				7991CA051B1ED95B00606046 /* save@2x.png in Resources */,
+				7A5486DD1E5DC9D200F532C8 /* ToolViewInputVoiceHL@2x.png in Resources */,
 				7AFDB6961BB636F100681CB9 /* UIVisibleViewViewController.xib in Resources */,
-				7991CA091B1ED95B00606046 /* ToolViewInputVoiceHL@2x.png in Resources */,
 				7AFDB6A01BB6371900681CB9 /* UIWindowViewController.xib in Resources */,
 				7A67184D1B9DD9AD0066F219 /* plistdemo.plist in Resources */,
+				7A5486DC1E5DC9D200F532C8 /* ToolViewInputVoice@2x.png in Resources */,
 				7AEAADF01BB46387002444DE /* delegateAndBlockViewController.xib in Resources */,
 				7A8136B91D1046710003D75F /* DateToolViewController.xib in Resources */,
 				7A2CD0141D445D8C00CAD353 /* mapapi.bundle in Resources */,
 				7A2CD00D1D445D7700CAD353 /* outgo.png in Resources */,
-				7991CA101B1ED95B00606046 /* umeng_fb_audio_play_default@2x.png in Resources */,
 				7AFDB69B1BB6370000681CB9 /* UIcontentOfViewViewController.xib in Resources */,
-				7991CA041B1ED95B00606046 /* microphone@2x.png in Resources */,
-				7991CA0D1B1ED95B00606046 /* umeng_fb_audio_play_01@2x.png in Resources */,
 				7991C94C1B1ED25F00606046 /* feedbackViewController.xib in Resources */,
-				7991CA071B1ED95B00606046 /* ToolViewInputTextHL@2x.png in Resources */,
-				7991CA061B1ED95B00606046 /* ToolViewInputText@2x.png in Resources */,
+				7A5486D81E5DC9D200F532C8 /* microphone@2x.png in Resources */,
+				7A5486DB1E5DC9D200F532C8 /* ToolViewInputTextHL@2x.png in Resources */,
+				7A5486E21E5DC9D200F532C8 /* umeng_fb_audio_play_02@2x.png in Resources */,
+				7A5486D91E5DC9D200F532C8 /* save@2x.png in Resources */,
+				7A5486DE1E5DC9D200F532C8 /* umeng_add_photo@2x.png in Resources */,
 				79D740DD1AE63FC80093AEEF /* Images.xcassets in Resources */,
+				7A5486E41E5DC9D200F532C8 /* umeng_fb_audio_play_default@2x.png in Resources */,
 				7AFDB6861BB6368F00681CB9 /* AlerAndActionSheetViewController.xib in Resources */,
 				79CCC1931AE79AEE00FD10DA /* uploadImgeViewController.xib in Resources */,
+				7A5486D71E5DC9D200F532C8 /* cancel@2x.png in Resources */,
+				7A5486D61E5DC9D200F532C8 /* bubble_min@2x.png in Resources */,
 				7AE9EAB41BAEF0BE0013CB66 /* sinaWeiBoTableViewController.xib in Resources */,
-				7991CA081B1ED95B00606046 /* ToolViewInputVoice@2x.png in Resources */,
-				7991CA031B1ED95B00606046 /* cancel@2x.png in Resources */,
 				7AFDB68B1BB636BE00681CB9 /* TextAndWebViewViewController.xib in Resources */,
-				7991CA0C1B1ED95B00606046 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
 				7AFDB6A51BB6372B00681CB9 /* UIControlViewController.xib in Resources */,
-				7991CA021B1ED95B00606046 /* bubble_min@2x.png in Resources */,
+				7A5486E01E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
 				7A2CD0131D445D8C00CAD353 /* Hooded.mp3 in Resources */,
+				7A5486E31E5DC9D200F532C8 /* umeng_fb_audio_play_03@2x.png in Resources */,
+				7A5486E11E5DC9D200F532C8 /* umeng_fb_audio_play_01@2x.png in Resources */,
 				7A5E871C1DC838B60005E7A1 /* CamaroViewController.xib in Resources */,
 				7A2CD00B1D445D7700CAD353 /* inCome.png in Resources */,
 				7AE9EAB91BAEF9940013CB66 /* sendWeiboViewController.xib in Resources */,
 				7A4DF5451BDB3E3B00FBFB06 /* intrestMathmticQuestionViewController.xib in Resources */,
 				79CB51041B3A591000456DF5 /* scrollToOtherPageViewController.xib in Resources */,
+				7A5486D41E5DC9D200F532C8 /* UMFeedbackLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1661,8 +1689,6 @@
 				7A4DD21A1C2C31B100150417 /* CrashLogViewController.m in Sources */,
 				7A882FBC1CEE2AC70058EC07 /* UIControl+JerryLiu.m in Sources */,
 				7AE7DC251B74EFB3001998ED /* mapViewController.m in Sources */,
-				7991CA171B1ED95B00606046 /* UMRadialView.m in Sources */,
-				7991CA111B1ED95B00606046 /* UMFeedbackViewController.m in Sources */,
 				7A8136B71D1043C20003D75F /* DateToolViewController.m in Sources */,
 				7A263A341BB1B91900CA888A /* singleton.m in Sources */,
 				7A8E5DFC1CDBA50B00DE2EF3 /* MainNavigationController.m in Sources */,
@@ -1674,6 +1700,7 @@
 				7A11596D1C8342F3003FDC35 /* DelegateViewController.m in Sources */,
 				7A1159661C8342E4003FDC35 /* BlockViewController.m in Sources */,
 				7AFDB69A1BB6370000681CB9 /* UIcontentOfViewViewController.m in Sources */,
+				7A5486E81E5DC9D200F532C8 /* UMChatToolBar.m in Sources */,
 				7AEAADFB1BB5A432002444DE /* QRCodeREsultViewController.m in Sources */,
 				79D740D81AE63FC80093AEEF /* ViewController.m in Sources */,
 				79CCC1921AE79AEE00FD10DA /* uploadImgeViewController.m in Sources */,
@@ -1681,23 +1708,27 @@
 				7AFDB6901BB636DC00681CB9 /* UINavigationViewViewController.m in Sources */,
 				79D740D51AE63FC80093AEEF /* AppDelegate.mm in Sources */,
 				79D740F81AE641B30093AEEF /* userModel.m in Sources */,
+				7A5486EB1E5DC9D200F532C8 /* UMRadialView.m in Sources */,
 				133F656C1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m in Sources */,
 				7A882FC11CEE2AC70058EC07 /* UITabBar+KKStar.m in Sources */,
 				7991C94B1B1ED25F00606046 /* feedbackViewController.m in Sources */,
 				7A882FF51CEE2C3B0058EC07 /* HookUtility.m in Sources */,
+				7A5486E71E5DC9D200F532C8 /* UMChatTableViewCell.m in Sources */,
 				7AEAADEE1BB45A85002444DE /* delegateAndBlockViewController.m in Sources */,
+				7A5486F01E5DD26700F532C8 /* ConnactViewController.m in Sources */,
+				7A5486EA1E5DC9D200F532C8 /* UMPostTableViewCell.m in Sources */,
 				7A882FBB1CEE2AC70058EC07 /* NSString+NSStringCatagery.m in Sources */,
-				7991CA161B1ED95B00606046 /* UMPostTableViewCell.m in Sources */,
+				7A5486F41E5DD41E00F532C8 /* SettingViewController.m in Sources */,
 				7A9530041D917ECD00202A98 /* UIImage+Extension.m in Sources */,
 				7A882FBD1CEE2AC70058EC07 /* UIViewController+JerryLiu.m in Sources */,
 				7A5E871B1DC838B60005E7A1 /* CamaroViewController.m in Sources */,
 				7A2CCFF51D4456B300CAD353 /* AudioEffectViewController.m in Sources */,
 				7AB09B001BA9A7160042AC02 /* thirdInputHandleViewController.m in Sources */,
+				7A5486EC1E5DC9D200F532C8 /* UMTextView.m in Sources */,
 				7A811BE81BD3A32B00C962DA /* archiveDataViewController.m in Sources */,
 				133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */,
 				7A882FE81CEE2B3E0058EC07 /* SesameGlobalWebView.m in Sources */,
 				7A4721501DC74DA400827557 /* AlertViewController.m in Sources */,
-				7991CA181B1ED95B00606046 /* UMTextView.m in Sources */,
 				7A4DF5441BDB3E3B00FBFB06 /* intrestMathmticQuestionViewController.m in Sources */,
 				7AFDB6A41BB6372B00681CB9 /* UIControlViewController.m in Sources */,
 				7AD55EB81E5955DA004E6212 /* PhotosViewController.m in Sources */,
@@ -1711,17 +1742,16 @@
 				7AE6F03E1BB04D780061B8CE /* BookActivity.m in Sources */,
 				7AE9EAB81BAEF9940013CB66 /* sendWeiboViewController.m in Sources */,
 				7AFDB6851BB6368F00681CB9 /* AlerAndActionSheetViewController.m in Sources */,
-				7991CA131B1ED95B00606046 /* UMChatTableViewCell.m in Sources */,
 				7A47214C1DC6F0FF00827557 /* AlertTool.m in Sources */,
 				79CCC19B1AE7A56E00FD10DA /* baseTabarViewController.m in Sources */,
-				7991CA151B1ED95B00606046 /* UMFullScreenPhotoView.m in Sources */,
 				79CB51031B3A591000456DF5 /* scrollToOtherPageViewController.m in Sources */,
+				7A5486E51E5DC9D200F532C8 /* UMFeedbackViewController.m in Sources */,
 				79D740FC1AE642D80093AEEF /* TableViewCell.m in Sources */,
 				7A531E211DC5A0AD0070C21C /* NotificationModel.m in Sources */,
 				79D740D21AE63FC80093AEEF /* main.m in Sources */,
 				7AFDB68A1BB636BE00681CB9 /* TextAndWebViewViewController.m in Sources */,
-				7991CA141B1ED95B00606046 /* UMChatToolBar.m in Sources */,
 				7A882FC01CEE2AC70058EC07 /* UINavigationItem+KKStar.m in Sources */,
+				7A5486E91E5DC9D200F532C8 /* UMFullScreenPhotoView.m in Sources */,
 				7AD55ECC1E599B7C004E6212 /* TopViewController.m in Sources */,
 				7A8E5DFD1CDBA50B00DE2EF3 /* MainTabBarController.m in Sources */,
 				7AEAADF41BB59063002444DE /* QRCodeViewController.m in Sources */,
@@ -1747,21 +1777,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7991C9D71B1ED95A00606046 /* UMFeedbackLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7991C9D81B1ED95A00606046 /* Base */,
-				7991C9FF1B1ED95A00606046 /* zh-Hans */,
-			);
-			name = UMFeedbackLocalizable.strings;
-			sourceTree = "<group>";
-		};
 		79D740D91AE63FC80093AEEF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				79D740DA1AE63FC80093AEEF /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A5486AB1E5DC9D200F532C8 /* UMFeedbackLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A5486AC1E5DC9D200F532C8 /* Base */,
+				7A5486D31E5DC9D200F532C8 /* zh-Hans */,
+			);
+			name = UMFeedbackLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1896,13 +1926,15 @@
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ThirdLibrary/DotA",
 					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3",
 					"$(PROJECT_DIR)/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
+					"$(PROJECT_DIR)/adapteTableviewHight/UMengFeedback_SDK_2.3",
+					"$(PROJECT_DIR)/adapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmayun.apps.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhp3851.lhp3851Study;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";
@@ -1953,13 +1985,15 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/XMPPFramework",
 					"$(PROJECT_DIR)/Pods/XMPPFramework/Vendor/libidn",
+					"$(PROJECT_DIR)/adapteTableviewHight/UMengFeedback_SDK_2.3",
+					"$(PROJECT_DIR)/adapteTableviewHight/UMengFeedback_SDK_2.3/UMOpus",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmayun.apps.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhp3851.lhp3851Study;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/AdapteTableviewHight/AdapteTableviewHight.pch";

@@ -37,8 +37,13 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    
-      
+    [super viewWillAppear:animated];
+    self.hidesBottomBarWhenPushed=NO;
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    self.hidesBottomBarWhenPushed=YES;
 }
 
 

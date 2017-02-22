@@ -10,6 +10,8 @@
 #import "ViewController.h"
 #import "feedbackViewController.h"
 #import "MainNavigationController.h"
+#import "ConnactViewController.h"
+#import "SettingViewController.h"
 
 @interface MainTabBarController (){
     
@@ -41,15 +43,25 @@
 
 -(NSArray *)tabBarViewControllers{
     ViewController *VC=[[ViewController alloc]init];
-    VC.title=@"首页";
+    VC.title=NSLocalizedString(@"首页",nil);
     MainNavigationController *navVC=[[MainNavigationController alloc]initWithRootViewController:VC];
     [VC.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor redColor]] forBarMetrics:UIBarMetricsDefault];
     VC.navigationController.navigationBar.backgroundColor = [UIColor blueColor];
+    
     feedbackViewController *feedBackVC=[[feedbackViewController alloc]init];
-    feedBackVC.title=@"功能";
+    feedBackVC.title=NSLocalizedString(@"功能",nil);
     MainNavigationController *navFeedBackVC=[[MainNavigationController alloc]initWithRootViewController:feedBackVC];
     
-    NSArray *tabBarViewControllers=[NSArray arrayWithObjects:navVC,navFeedBackVC, nil];
+    ConnactViewController *connactVC=[[ConnactViewController alloc]init];
+    connactVC.title=NSLocalizedString(@"通讯录", nil);
+    MainNavigationController *navConnactVC=[[MainNavigationController alloc]initWithRootViewController:connactVC];
+    
+    
+    SettingViewController *setVC=[[SettingViewController alloc]init];
+    setVC.title=NSLocalizedString(@"设置", nil);
+    MainNavigationController *navSetVC=[[MainNavigationController alloc]initWithRootViewController:setVC];
+    
+    NSArray *tabBarViewControllers=[NSArray arrayWithObjects:navVC,navConnactVC,navFeedBackVC, navSetVC,nil];
     return tabBarViewControllers;
 }
 

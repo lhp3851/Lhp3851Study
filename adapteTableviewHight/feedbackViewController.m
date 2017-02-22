@@ -29,12 +29,11 @@
 
 @implementation feedbackViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
 //    self.feedback.layer.cornerRadius=3;
-    
-    
 }
 
 -(IBAction)userFeedback:(id)sender{    
@@ -43,6 +42,7 @@
     UMPostTableViewCell *cell=[[UMPostTableViewCell alloc]init];
     [cell setBackgroundColor:[UIColor greenColor]];
 //    [UMFeedback feedbackViewController]
+    feedBackVc.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:feedBackVc
                                          animated:YES];
 //    [self presentViewController:[UMFeedback feedbackViewController] animated:YES completion:^{
@@ -52,17 +52,20 @@
 
 -(IBAction)locationService:(id)sender{
     mapViewController *mapVC=[[mapViewController alloc]init];
+    mapVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:mapVC animated:YES];
 }
 
 -(IBAction)inputHandleButton:(id)sender{
     thirdInputHandleViewController *thirdInputVC=[[thirdInputHandleViewController alloc]init];
+    thirdInputVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:thirdInputVC animated:YES];
 }
 
 
 -(IBAction)sinaWeiBo:(id)sender{
     sinaWeiBoTableViewController *sinaWeiBoVC=[[sinaWeiBoTableViewController alloc]initWithNibName:@"sinaWeiBoTableViewController" bundle:nil];
+    sinaWeiBoVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:sinaWeiBoVC animated:YES];
 }
 
@@ -86,6 +89,7 @@
 
 -(IBAction)delegateAndBlock:(id)sender{
     delegateAndBlockViewController *delegateAndBlockVC=[[delegateAndBlockViewController alloc]init];
+    delegateAndBlockVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:delegateAndBlockVC animated:YES];
 }
 
@@ -98,17 +102,20 @@
 
 -(IBAction)ClassOfViews:(id)sender{
     UIVisibleViewViewController *visibleVC=[[UIVisibleViewViewController alloc]initWithNibName:@"UIVisibleViewViewController" bundle:nil];
+    visibleVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:visibleVC animated:YES];
 }
 
 
 -(IBAction)archiveData:(id)sender{
     archiveDataViewController *archiveDataVC=[[archiveDataViewController alloc]init];
+    archiveDataVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:archiveDataVC animated:YES];
 }
 
 -(IBAction)intrestMathmticQuestion:(id)sender{
     intrestMathmticQuestionViewController *intrestMathVC=[[intrestMathmticQuestionViewController alloc]initWithNibName:@"intrestMathmticQuestionViewController" bundle:nil];
+    intrestMathVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:intrestMathVC animated:YES];
 }
 
@@ -119,6 +126,7 @@
 //CrashLog
 -(IBAction)crashLog:(id)sender{
     CrashLogViewController *crashLogVC=[[CrashLogViewController alloc]init];
+    crashLogVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:crashLogVC animated:YES];
 }
 
@@ -174,6 +182,7 @@
 //日期处理
 -(IBAction)dateHandler:(id)sender{
     DateToolViewController *dateVC=[[DateToolViewController alloc]initWithNibName:@"DateToolViewController" bundle:nil];
+    dateVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:dateVC animated:YES];
 }
 
@@ -181,12 +190,14 @@
 -(IBAction)notificaion:(id)sender{
     NSLog(@"通知");
     NotificationViewController *notiVC=[NotificationViewController new];
+    notiVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:notiVC animated:YES];
 }
 
 //警告
 -(IBAction)AlertControoler:(id)sender{
     AlertViewController *alertVC=[AlertViewController new];
+    alertVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:alertVC animated:YES];
 }
 
@@ -199,6 +210,7 @@
 //相册
 -(IBAction)photos:(id)sender{
     PhotosViewController *photosVC=[PhotosViewController new];
+    photosVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:photosVC animated:YES];
 }
 
