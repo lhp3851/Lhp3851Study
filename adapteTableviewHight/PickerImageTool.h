@@ -19,13 +19,17 @@
 #import <Foundation/Foundation.h>
 
 
-typedef void(^PikeredImageHandler)(UIImage *image);
+typedef void(^PickedImageHandler)(UIImage *image);//取到照片后的处理
+typedef void (^PickedCollectionListHandler)(NSArray *collectionList,NSArray *collectionListItem);//取到相册列表的处理
+
 
 @interface PickerImageTool : NSObject<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
++(id)shareInstance;
+
 -(instancetype)initWithType:(UIImagePickerControllerSourceType)type allowEdit:(BOOL)editable ViewCotroler:(UIViewController *)viewController;
 
--(instancetype)initWithType:(UIImagePickerControllerSourceType)type allowEdit:(BOOL)editable ViewCotroler:(UIViewController *)viewController pickerImage:(PikeredImageHandler)pickerImageHandler;
+-(instancetype)initWithType:(UIImagePickerControllerSourceType)type allowEdit:(BOOL)editable ViewCotroler:(UIViewController *)viewController pickerImage:(PickedImageHandler)pickerImageHandler;
 
-
+-(void)getPhotosCollectionList:(PickedCollectionListHandler)pickedCollectionListHandler;
 @end

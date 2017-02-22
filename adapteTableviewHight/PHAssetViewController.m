@@ -29,10 +29,11 @@ static NSString *cellID=@"cellID";
 -(void)initView{
     self.view.backgroundColor=[UIColor whiteColor];
     [self.view addSubview:self.assetCollectionView];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"取消" style:UIBarButtonItemStyleDone target:self action:@selector(dismisFromCurrent)];
 }
 
 -(void)initData{
-    self.navigationItem.title=NSLocalizedString(@"相册", nil);
+    self.navigationItem.title=NSLocalizedString(self.assetCollection.localizedTitle, nil);
 }
 
 -(UICollectionView *)assetCollectionView{
@@ -83,6 +84,11 @@ static NSString *cellID=@"cellID";
     NSLog(@"indexPath:%@",indexPath);
 }
 
+-(void)dismisFromCurrent{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
 
 
 - (void)didReceiveMemoryWarning {

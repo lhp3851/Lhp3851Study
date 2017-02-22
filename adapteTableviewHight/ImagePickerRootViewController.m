@@ -41,6 +41,7 @@ typedef void (^ImageRequestResultBlock)(UIImage *__nullable result, NSDictionary
 -(void)initView{
     self.view.backgroundColor=[UIColor whiteColor];
     [self.view addSubview:self.photoTableview];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"取消" style:UIBarButtonItemStyleDone target:self action:@selector(dismisFromCurrent)];
 }
 
 -(void)initData{
@@ -166,6 +167,12 @@ typedef void (^ImageRequestResultBlock)(UIImage *__nullable result, NSDictionary
     PHAssetViewController *assetVC=[[PHAssetViewController alloc]init];
     assetVC.assetCollection=self.collectionListItem[indexPath.row];
     [self.navigationController pushViewController:assetVC animated:YES];
+}
+
+-(void)dismisFromCurrent{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
