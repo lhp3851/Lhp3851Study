@@ -387,12 +387,12 @@
 		7AD55EBD1E5963FD004E6212 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Const.h; path = adapteTableviewHight/Const.h; sourceTree = SOURCE_ROOT; };
 		7AD55EBE1E598E2A004E6212 /* ImagePickerRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerRootViewController.h; sourceTree = "<group>"; };
 		7AD55EBF1E598E2A004E6212 /* ImagePickerRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerRootViewController.m; sourceTree = "<group>"; };
-		7AD55EC11E59954C004E6212 /* PickerImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerImageTool.h; sourceTree = "<group>"; };
-		7AD55EC21E59954C004E6212 /* PickerImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerImageTool.m; sourceTree = "<group>"; };
-		7AD55EC41E599822004E6212 /* WindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowTool.h; sourceTree = "<group>"; };
-		7AD55EC51E599822004E6212 /* WindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowTool.m; sourceTree = "<group>"; };
-		7AD55ECA1E599B7C004E6212 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
-		7AD55ECB1E599B7C004E6212 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		7AD55EC11E59954C004E6212 /* PickerImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerImageTool.h; path = ../AdapteTableviewHight/PickerImageTool.h; sourceTree = "<group>"; };
+		7AD55EC21E59954C004E6212 /* PickerImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerImageTool.m; path = ../AdapteTableviewHight/PickerImageTool.m; sourceTree = "<group>"; };
+		7AD55EC41E599822004E6212 /* WindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowTool.h; path = ../AdapteTableviewHight/WindowTool.h; sourceTree = "<group>"; };
+		7AD55EC51E599822004E6212 /* WindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WindowTool.m; path = ../AdapteTableviewHight/WindowTool.m; sourceTree = "<group>"; };
+		7AD55ECA1E599B7C004E6212 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopViewController.h; path = ../TopViewController.h; sourceTree = "<group>"; };
+		7AD55ECB1E599B7C004E6212 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopViewController.m; path = ../TopViewController.m; sourceTree = "<group>"; };
 		7AE021561CEFF44A00227053 /* THSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSpeechController.h; sourceTree = "<group>"; };
 		7AE021571CEFF44A00227053 /* THSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSpeechController.m; sourceTree = "<group>"; };
 		7AE6F03C1BB04D780061B8CE /* BookActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookActivity.h; sourceTree = "<group>"; };
@@ -936,6 +936,57 @@
 			name = Setting;
 			sourceTree = "<group>";
 		};
+		7A5486F51E5DEB4600F532C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AD55EB61E5955DA004E6212 /* PhotosViewController.h */,
+				7AD55EB71E5955DA004E6212 /* PhotosViewController.m */,
+				133F65601E5D8FC900279C9E /* PHAssetViewController.h */,
+				133F65611E5D8FC900279C9E /* PHAssetViewController.m */,
+				7AD55EBE1E598E2A004E6212 /* ImagePickerRootViewController.h */,
+				7AD55EBF1E598E2A004E6212 /* ImagePickerRootViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7A5486F61E5DEB5100F532C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				133F65671E5D920300279C9E /* PHAssetCollectionViewCell.h */,
+				133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */,
+				133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */,
+				133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7A5486F71E5DEB7B00F532C8 /* TopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AD55ECA1E599B7C004E6212 /* TopViewController.h */,
+				7AD55ECB1E599B7C004E6212 /* TopViewController.m */,
+			);
+			name = TopViewController;
+			sourceTree = "<group>";
+		};
+		7A5486F81E5DEBCF00F532C8 /* WindowsTool */ = {
+			isa = PBXGroup;
+			children = (
+				7AD55EC41E599822004E6212 /* WindowTool.h */,
+				7AD55EC51E599822004E6212 /* WindowTool.m */,
+			);
+			name = WindowsTool;
+			sourceTree = "<group>";
+		};
+		7A5486F91E5DEBE600F532C8 /* ImagePickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				7AD55EC11E59954C004E6212 /* PickerImageTool.h */,
+				7AD55EC21E59954C004E6212 /* PickerImageTool.m */,
+			);
+			name = ImagePickerTool;
+			sourceTree = "<group>";
+		};
 		7A5E87131DC838910005E7A1 /* Camaro */ = {
 			isa = PBXGroup;
 			children = (
@@ -1002,6 +1053,8 @@
 		7A882FE31CEE2B3E0058EC07 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7A5486F91E5DEBE600F532C8 /* ImagePickerTool */,
+				7A5486F81E5DEBCF00F532C8 /* WindowsTool */,
 				7AD55EB91E5956D3004E6212 /* PhotosTool */,
 				7A4721451DC6E5CE00827557 /* AlertTool */,
 				7A37F9A51D0FE1A000146446 /* DateTool */,
@@ -1072,22 +1125,8 @@
 		7AD55EB51E5955BF004E6212 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				7AD55EB61E5955DA004E6212 /* PhotosViewController.h */,
-				7AD55EB71E5955DA004E6212 /* PhotosViewController.m */,
-				133F65601E5D8FC900279C9E /* PHAssetViewController.h */,
-				133F65611E5D8FC900279C9E /* PHAssetViewController.m */,
-				7AD55EBE1E598E2A004E6212 /* ImagePickerRootViewController.h */,
-				7AD55EBF1E598E2A004E6212 /* ImagePickerRootViewController.m */,
-				7AD55EC11E59954C004E6212 /* PickerImageTool.h */,
-				7AD55EC21E59954C004E6212 /* PickerImageTool.m */,
-				7AD55EC41E599822004E6212 /* WindowTool.h */,
-				7AD55EC51E599822004E6212 /* WindowTool.m */,
-				7AD55ECA1E599B7C004E6212 /* TopViewController.h */,
-				7AD55ECB1E599B7C004E6212 /* TopViewController.m */,
-				133F65671E5D920300279C9E /* PHAssetCollectionViewCell.h */,
-				133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */,
-				133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */,
-				133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */,
+				7A5486F61E5DEB5100F532C8 /* Views */,
+				7A5486F51E5DEB4600F532C8 /* Controller */,
 			);
 			name = Photos;
 			sourceTree = "<group>";
@@ -1104,6 +1143,7 @@
 		7AE0214A1CEFEDE800227053 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7A5486F71E5DEB7B00F532C8 /* TopViewController */,
 				7A47214D1DC74D8500827557 /* AlertCotroller */,
 				7A531E221DC5A4AA0070C21C /* Notification */,
 				7A8136AD1D1043550003D75F /* DateTool */,
