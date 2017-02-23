@@ -34,12 +34,12 @@
 }
 
 -(void)inject_ViewWillAppear{
-    NSLog(@"我在%@的viewWillAppear执行前偷偷插入了一段代码",ViewControllerName);
+//    NSLog(@"我在%@的viewWillAppear执行前偷偷插入了一段代码",ViewControllerName);
     [MobClick endLogPageView:ViewControllerName];
 }
 
 -(void)inject_ViewWillDisappear{
-    NSLog(@"我在%@的viewWillDisappear执行前偷偷插入了一段代码",ViewControllerName);
+//    NSLog(@"我在%@的viewWillDisappear执行前偷偷插入了一段代码",ViewControllerName);
     [MobClick beginLogPageView:ViewControllerName];
    
 }

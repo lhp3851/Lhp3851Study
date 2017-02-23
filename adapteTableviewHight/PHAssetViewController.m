@@ -8,6 +8,7 @@
 
 #import "PHAssetViewController.h"
 #import "PHAssetCollectionViewCell.h"
+#import "PhotoBrowserViewController.h"
 
 static NSString *cellID=@"cellID";
 
@@ -81,7 +82,14 @@ static NSString *cellID=@"cellID";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"indexPath:%@",indexPath);
+    
+    PHAsset *asset=self.assets[self.assets.count-1 -indexPath.row];
+    NSLog(@"indexPath:%@-%ld",indexPath,asset.mediaType);
+    PhotoBrowserViewController *photoBrowserVC=[[PhotoBrowserViewController alloc]init];
+    photoBrowserVC.assetCollection=self.assetCollection;
+    photoBrowserVC.index=self.assets.count-1 -indexPath.row;
+    [self.navigationController pushViewController:photoBrowserVC animated:YES];
+    
 }
 
 -(void)dismisFromCurrent{

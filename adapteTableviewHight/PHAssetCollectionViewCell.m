@@ -80,7 +80,10 @@
         _durationLab.hidden=NO;
         _checkBtn.hidden=YES;
         float assetTime=asset.duration/kMinute;
-        NSString *duration=[NSString stringWithFormat:@"%.2f分钟",assetTime];
+        if (assetTime>60) {
+            assetTime=assetTime/kMinute;
+        }
+        NSString *duration=[NSString stringWithFormat:@"%.2f",assetTime];
         _durationLab.text=[duration replaceCharcter:@"." withCharcter:@":"];
     }
 }

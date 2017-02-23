@@ -10,6 +10,7 @@
 		133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65611E5D8FC900279C9E /* PHAssetViewController.m */; };
 		133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */; };
 		133F656C1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */; };
+		136601411E5E84F10073EAD8 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136601401E5E84F10073EAD8 /* PhotoBrowserViewController.m */; };
 		13B513881E5A8F200046FEB7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513871E5A8F200046FEB7 /* libresolv.tbd */; };
 		13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A31E5A90900046FEB7 /* CFNetwork.framework */; };
 		13B513A61E5A90A80046FEB7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A51E5A90A80046FEB7 /* libxml2.tbd */; };
@@ -202,6 +203,8 @@
 		133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAssetCollectionViewCell.m; sourceTree = "<group>"; };
 		133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCollectionAssetTableViewCell.h; sourceTree = "<group>"; };
 		133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCollectionAssetTableViewCell.m; sourceTree = "<group>"; };
+		1366013F1E5E84F10073EAD8 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoBrowserViewController.h; path = adapteTableviewHight/PhotoBrowserViewController.h; sourceTree = SOURCE_ROOT; };
+		136601401E5E84F10073EAD8 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowserViewController.m; path = adapteTableviewHight/PhotoBrowserViewController.m; sourceTree = SOURCE_ROOT; };
 		13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHight.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHight/Pods-AdapteTableviewHight.release.xcconfig"; sourceTree = "<group>"; };
 		13B5137B1E5A872B0046FEB7 /* libXMPPFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPPFramework.a; path = "Pods/../build/Debug-iphoneos/XMPPFramework/libXMPPFramework.a"; sourceTree = "<group>"; };
 		13B513871E5A8F200046FEB7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -493,6 +496,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136601391E5E7BAA0073EAD8 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "C++";
+			sourceTree = "<group>";
+		};
+		1366013A1E5E7F7E0073EAD8 /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+				1366013D1E5E827A0073EAD8 /* Tool */,
+				1366013C1E5E826E0073EAD8 /* Controller */,
+				1366013B1E5E82660073EAD8 /* Views */,
+			);
+			name = Vedio;
+			sourceTree = "<group>";
+		};
+		1366013B1E5E82660073EAD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1366013C1E5E826E0073EAD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1366013D1E5E827A0073EAD8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		1366013E1E5E844D0073EAD8 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1366013F1E5E84F10073EAD8 /* PhotoBrowserViewController.h */,
+				136601401E5E84F10073EAD8 /* PhotoBrowserViewController.m */,
+			);
+			name = PhotoBrowser;
+			sourceTree = "<group>";
+		};
 		522445E317DB4DA6BCBD163B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,9 +853,8 @@
 		7A47698A1CDBA94D00E1B421 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				136601391E5E7BAA0073EAD8 /* C++ */,
 				7A882FFC1CEE2E5B0058EC07 /* C luanguage */,
-				7A882FC31CEE2AEB0058EC07 /* Extension */,
-				7A882FA81CEE28F80058EC07 /* Categery */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -1037,7 +1086,8 @@
 				7A882FB91CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.h */,
 				7A882FBA1CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.m */,
 			);
-			path = Categery;
+			name = Categery;
+			path = ../Categery;
 			sourceTree = "<group>";
 		};
 		7A882FC31CEE2AEB0058EC07 /* Extension */ = {
@@ -1047,12 +1097,15 @@
 				7A882FC51CEE2AEB0058EC07 /* NSObject_extra.m */,
 				7A882FC61CEE2AEB0058EC07 /* NSString_NSStringExtension.h */,
 			);
-			path = Extension;
+			name = Extension;
+			path = ../Extension;
 			sourceTree = "<group>";
 		};
 		7A882FE31CEE2B3E0058EC07 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7A882FC31CEE2AEB0058EC07 /* Extension */,
+				7A882FA81CEE28F80058EC07 /* Categery */,
 				7A5486F91E5DEBE600F532C8 /* ImagePickerTool */,
 				7A5486F81E5DEBCF00F532C8 /* WindowsTool */,
 				7AD55EB91E5956D3004E6212 /* PhotosTool */,
@@ -1125,6 +1178,7 @@
 		7AD55EB51E5955BF004E6212 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				1366013E1E5E844D0073EAD8 /* PhotoBrowser */,
 				7A5486F61E5DEB5100F532C8 /* Views */,
 				7A5486F51E5DEB4600F532C8 /* Controller */,
 			);
@@ -1224,6 +1278,7 @@
 		7AE021521CEFF39900227053 /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				1366013A1E5E7F7E0073EAD8 /* Vedio */,
 				7AD55EB51E5955BF004E6212 /* Photos */,
 				7A5E87131DC838910005E7A1 /* Camaro */,
 				7A2CCFF21D44556900CAD353 /* AudioEffect */,
@@ -1754,6 +1809,7 @@
 				7991C94B1B1ED25F00606046 /* feedbackViewController.m in Sources */,
 				7A882FF51CEE2C3B0058EC07 /* HookUtility.m in Sources */,
 				7A5486E71E5DC9D200F532C8 /* UMChatTableViewCell.m in Sources */,
+				136601411E5E84F10073EAD8 /* PhotoBrowserViewController.m in Sources */,
 				7AEAADEE1BB45A85002444DE /* delegateAndBlockViewController.m in Sources */,
 				7A5486F01E5DD26700F532C8 /* ConnactViewController.m in Sources */,
 				7A5486EA1E5DC9D200F532C8 /* UMPostTableViewCell.m in Sources */,

@@ -583,6 +583,7 @@
     NSString* versionNumString = [infoDict objectForKey:@"CFBundleVersion"];
     return  versionNumString;
 }
+
 //获取设备的uuid
 -(NSString* ) getUuidString{
     CFUUIDRef puuid = CFUUIDCreate( nil );

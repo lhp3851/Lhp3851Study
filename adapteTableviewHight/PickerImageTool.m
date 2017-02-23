@@ -123,6 +123,13 @@
     pickedCollectionListHandler(collectionList,collectionListItem);
 }
 
+
+-(void)getImageWithAsset:(PHAsset *)asset imageSize:(CGSize)size result:(ImageResult)pickedImageHandler{
+    [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:size contentMode:PHImageContentModeAspectFill options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+        pickedImageHandler(result,info);
+    }];
+}
+
 #pragma mark UIImagePickerControllerDelegate
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
     self.pickedImage=info[UIImagePickerControllerEditedImage];

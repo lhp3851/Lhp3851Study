@@ -17,11 +17,12 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <Photos/Photos.h>
 
 
 typedef void(^PickedImageHandler)(UIImage *image);//取到照片后的处理
 typedef void (^PickedCollectionListHandler)(NSArray *collectionList,NSArray *collectionListItem);//取到相册列表的处理
-
+typedef void (^ImageResult)(UIImage * result, NSDictionary * info);//获取到的照片
 
 @interface PickerImageTool : NSObject<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
@@ -31,5 +32,20 @@ typedef void (^PickedCollectionListHandler)(NSArray *collectionList,NSArray *col
 
 -(instancetype)initWithType:(UIImagePickerControllerSourceType)type allowEdit:(BOOL)editable ViewCotroler:(UIViewController *)viewController pickerImage:(PickedImageHandler)pickerImageHandler;
 
+/**
+ 获取所有PHCollectionList集合
+
+ @param pickedCollectionListHandler 获取到所有照片集合后的回调处理
+ */
 -(void)getPhotosCollectionList:(PickedCollectionListHandler)pickedCollectionListHandler;
+
+/**
+ 获取照片
+
+ @param asset PHAsset
+ @param size  预期的照片size
+ @param result 获取到照片后的回调处理
+ */
+-(void)getImageWithAsset:(PHAsset *)asset imageSize:(CGSize)size result:(ImageResult)pickedImageHandler;
+
 @end
