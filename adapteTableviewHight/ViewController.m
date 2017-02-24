@@ -15,12 +15,7 @@
 //#import <CoreBluetooth/CoreBluetooth.h>
 //#import <GameKit/GameKit.h>
 @interface ViewController (){
-    NSMutableArray *tableData;  //tableView数据存放数组
-    
-    UISwipeGestureRecognizer *swipLeftGesture;
-    UISwipeGestureRecognizer *swipRightGesture;
-
-    
+    NSMutableArray *functionArray;  //tableView数据存放数组
 }
 
 @end
@@ -31,7 +26,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        tableData = [[NSMutableArray alloc] init];
+
     }
     return self;
 }
@@ -50,12 +45,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [NSThread sleepForTimeInterval:3];
-//    self.navigationController.interactivePopGestureRecognizer.enabled=NO;
-//    [self setHidesBottomBarWhenPushed:YES];
-
-    [self initTableView];
-    [self createUserData];
+    [self initView];
+    [self initData];
     
     [self DotAFileTest];
     [self singletonModle];
@@ -67,6 +58,11 @@
 //    objc_msgSend(obj, @selector(setName:),@"balabala");
     
 }
+
+-(void)initData{
+    functionArray=[NSMutableArray arrayWithObjects:@[@".a文件",@"单例",@"plist文件",@"蓝牙"],nil];
+}
+
 //.a文件验证
 -(void)DotAFileTest{
     testDotA *testInsistance=[[testDotA alloc]init];
@@ -95,32 +91,10 @@
     NSLog(@"C:%p",C);
 }
 
-//我需要一点测试数据，直接复制老项目东西
--(void)createUserData{
-    tableData=[[NSMutableArray alloc]init];
-    userModel *user = [[userModel alloc] init];
-    [user setUsername:@"胖虎"];
-    [user setIntroduction:@"我是胖虎我怕谁!!我是胖虎我怕谁!!我是胖虎我怕谁!!"];
-    [user setImagePath:@"panghu.jpg"];
-    userModel *user2 = [[userModel alloc] init];
-    [user2 setUsername:@"多啦A梦"];
-    [user2 setIntroduction:@"我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!我是多啦A梦我有肚子!!"];
-    [user2 setImagePath:@"duolaameng.jpg"];
-    userModel *user3 = [[userModel alloc] init];
-    [user3 setUsername:@"大雄"];
-    [user3 setIntroduction:@"我是大雄我谁都怕，我是大雄我谁都怕，我是大雄我谁都怕，我是大雄我谁都怕，我是大雄我谁都怕，我是大雄我谁都怕，"];
-    [user3 setImagePath:@"daxiong.jpg"];
-    
-    [tableData addObject:user];
-    [tableData addObject:user2];
-    [tableData addObject:user3];
-}
-
 //plist文件操作
 -(void)plistFileOperation{
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"plistdemo" ofType:@"plist"];
     NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
-//    NSLog(@"data:%@", data);
     //添加一项内容
     [data setObject:@"add some content" forKey:@"c_key"];
     
@@ -148,95 +122,41 @@
     //输入写入
     [data writeToFile:filename atomically:YES];
     [rootArray writeToFile:filename atomically:YES];
-
 }
 
 //初始化tableView;
--(void)initTableView{
+-(void)initView{
     CGRect frame = self.view.frame;
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(frame.origin.x,0, frame.size.width, frame.size.height)];
-    _tableView.delegate = self;
+    _tableView.delegate   = self;
     _tableView.dataSource = self;
-    
     [self.view addSubview:_tableView];
 }
 
 
-
-
--(void)swipGesture{
-    if (swipLeftGesture.direction==UISwipeGestureRecognizerDirectionLeft) {
-        NSLog(@"左划⬅️");
-        [_tableView removeFromSuperview];
-        [UIView beginAnimations:nil context:nil];
-        [UIView setAnimationDuration:2];
-        [_tableView setFrame:CGRectMake(self.view.frame.origin.x+100, self.view.frame.origin.y+tablebarHight+38, self.view.frame.size.width, self.view.frame.size.height-tablebarHight*2)];
-        _tableView.backgroundColor=[UIColor whiteColor];
-        [self.view addSubview:_tableView];
-        [UIView commitAnimations];
-    }
-    else{
-        NSLog(@"左划bug");
-    }
+#pragma mark UITableViewDelegate
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return functionArray.count;
 }
-
-
--(void)swipRightGesture{
-    if (swipRightGesture.direction==UISwipeGestureRecognizerDirectionRight){
-        NSLog(@"右划→");
-        
-    }
-    else{
-        NSLog(@"右划bug");
-    }
-}
-
-
-
-
--(void)changePageCount:(UISegmentedControl *)sender{
-    UISegmentedControl *segments=(UISegmentedControl *)sender;
-    NSLog(@"第%ld页",(long)segments.selectedSegmentIndex);
-    [self createUserData];
-    if (segments.selectedSegmentIndex==0) {
-        [UIView beginAnimations:nil context:nil];
-        [UIView setAnimationDuration:1];
-        [_tableView setFrame:CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y+tablebarHight+38, self.view.frame.size.width, self.view.frame.size.height-tablebarHight*2)];
-        [_tableView reloadData];
-        [self.view addSubview:_tableView];
-        
-        [UIView commitAnimations];
-    }
-}
-
-
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    TableViewCell *cell = (TableViewCell *)[self tableView:_tableView cellForRowAtIndexPath:indexPath];
-    return cell.frame.size.height;
-}
-
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
+    return 50.0f;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [tableData count];
+    NSArray *subArray=[functionArray objectAtIndex:section];
+    return [subArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //指定cellIdentifier为自定义的cell
-    static NSString *CellIdentifier = @"Cell";
-    //自定义cell类
-    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *cellIdentifier = @"cellID";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[TableViewCell alloc] initWithReuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    userModel *user = [tableData objectAtIndex:indexPath.row];
-    cell.name.text = user.username;
-    [cell.userImage setImage:[UIImage imageNamed:user.imagePath]];
-    [cell setIntroductionText:user.introduction];
+    NSArray *subArray=[functionArray objectAtIndex:indexPath.section];
+    cell.textLabel.text=[subArray objectAtIndex:indexPath.row];
     return cell;
 }
 

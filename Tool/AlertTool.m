@@ -59,7 +59,7 @@
 }
 
 -(NSArray <UIAlertAction *> *)actions{
-    if (kSYSYTEMVERSION>8.0) {
+    if (kSYSYTEM_VERSION>8.0) {
         for (NSString *title in self.buttonTitles) {
             _actions=[NSMutableArray new];
             if (self.alertView){
@@ -87,7 +87,7 @@
 -(instancetype)init{
     self=[super init];
     if (self) {
-        if (kSYSYTEMVERSION>=8.0) {
+        if (kSYSYTEM_VERSION>=8.0) {
             _alertController=self.alertController;
         }
         else{
@@ -125,7 +125,7 @@
 
 
 -(void)showInViewController:(nullable UIViewController *)viewController{
-    if (kSYSYTEMVERSION<8.0) {
+    if (kSYSYTEM_VERSION<8.0) {
         [self.alertView show];
     }
     else{

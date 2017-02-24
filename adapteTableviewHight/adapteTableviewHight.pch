@@ -25,9 +25,12 @@
 //屏幕宽高
 #define kSCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
 #define kSCREENWIDTH  [[UIScreen mainScreen] bounds].size.width
+
 #define tablebarHight self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
 //系统版本
-#define kSYSYTEMVERSION  [UIDevice currentDevice].systemVersion.floatValue
+#define kSYSYTEM_VERSION  [UIDevice currentDevice].systemVersion.floatValue//系统版本
+#define kSYSTEM_FONT_VERSION(fontSize)  [UIFont systemFontOfSize:fontSize]//字体
+
 
 //颜色RGB
 #define RGBA(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]

@@ -70,13 +70,13 @@
 }
 
 -(IBAction)goToComment:(id)sende{
-    if (kSYSYTEMVERSION>=6&&kSYSYTEMVERSION<7) {
+    if (kSYSYTEM_VERSION>=6&&kSYSYTEM_VERSION<7) {
          [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APPID"]];
     }
-    else if (kSYSYTEMVERSION>=7&&kSYSYTEMVERSION<8) {
+    else if (kSYSYTEM_VERSION>=7&&kSYSYTEM_VERSION<8) {
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APPID"]];
     }
-    else if (kSYSYTEMVERSION>=8&&kSYSYTEMVERSION<9){
+    else if (kSYSYTEM_VERSION>=8&&kSYSYTEM_VERSION<9){
          [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APPID&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8"]];
     }
     else{

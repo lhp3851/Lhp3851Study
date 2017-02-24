@@ -16,9 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor whiteColor];
-    [self playSoundEffect:@"Hooded"];
+    [self setThePannle];
+    [self playSoundEffectWithData:@"Hooded"];
+    [self playSoundEffectWithData:@"06_Chimes"];
 }
+
+-(void)setThePannle{
+    self.view.backgroundColor=[UIColor whiteColor];
+}
+
 
 /**
  *  播放完成回调函数
@@ -30,20 +36,25 @@ void soundCompleteCallback(SystemSoundID soundID,void * clientData){
     NSLog(@"播放完成...");
 }
 
--(void)playSoundEffect:(NSString *)soundFileName{
-    NSString *filePath=[[NSBundle mainBundle] pathForResource:soundFileName ofType:@"mp3"];
-    NSURL *fileURL=[NSURL URLWithString:filePath];
-    SystemSoundID soundID=0;
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef _Nonnull)(fileURL), &soundID);
-    AudioServicesAddSystemSoundCompletion(soundID, NULL, NULL, soundCompleteCallback, NULL);
-//    AudioServicesPlaySystemSound(soundID);
-    AudioServicesPlayAlertSound(soundID);
+
+-(void)playSoundEffectWithData:(NSString *)soundPath{
+    NSString *filePath=[[NSBundle mainBundle] pathForResource:soundPath ofType:@"mp3"];
+    NSURL *fileURL=[NSURL fileURLWithPath:filePath];
+    SystemSoundID soundeID=0;
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)(fileURL), &soundeID);
+    AudioServicesAddSystemSoundCompletion(soundeID, nil, nil, soundCompleteCallback, NULL);
+    AudioServicesPlaySystemSound(soundeID);
+    //    AudioServicesPlayAlertSound(soundeID);
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
+
+
+
 
 
 @end
