@@ -9,6 +9,7 @@
 #import "PHAssetViewController.h"
 #import "PHAssetCollectionViewCell.h"
 #import "PhotoBrowserViewController.h"
+#import "AVVedioMovePlayerViewController.h"
 
 static NSString *cellID=@"cellID";
 
@@ -82,14 +83,18 @@ static NSString *cellID=@"cellID";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    
     PHAsset *asset=self.assets[self.assets.count-1 -indexPath.row];
-    NSLog(@"indexPath:%@-%ld",indexPath,asset.mediaType);
-    PhotoBrowserViewController *photoBrowserVC=[[PhotoBrowserViewController alloc]init];
-    photoBrowserVC.assetCollection=self.assetCollection;
-    photoBrowserVC.index=self.assets.count-1 -indexPath.row;
-    [self.navigationController pushViewController:photoBrowserVC animated:YES];
-    
+    if (asset.mediaType==PHAssetMediaTypeImage) {
+        NSLog(@"indexPath:%@-%ld",indexPath,asset.mediaType);
+        PhotoBrowserViewController *photoBrowserVC=[[PhotoBrowserViewController alloc]init];
+        photoBrowserVC.assetCollection=self.assetCollection;
+        photoBrowserVC.index=self.assets.count-1 -indexPath.row;
+        [self.navigationController pushViewController:photoBrowserVC animated:YES];
+    }else if (asset.mediaType==PHAssetMediaTypeVideo){
+        AVVedioMovePlayerViewController *avVedioVC=[AVVedioMovePlayerViewController shareVedioPlayer];
+        avVedioVC.PHAssetVedio=asset;
+        [self.navigationController pushViewController:avVedioVC animated:YES];
+    }
 }
 
 -(void)dismisFromCurrent{
