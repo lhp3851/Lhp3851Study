@@ -7,34 +7,27 @@
 //
 
 #import "TransitionBViewController.h"
+#import "TransitionAB.h"
 
-@interface TransitionBViewController ()
-
+@interface TransitionBViewController ()<UINavigationControllerDelegate>
+@property(nonatomic,strong)TransitionAB *transition;
 @end
 
 @implementation TransitionBViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.transitioningDelegate=self;
-    self.modalTransitionStyle=UIModalPresentationCustom;
-    
-    self.view.backgroundColor=[UIColor whiteColor];
+//    self.transitioningDelegate=self;
+//    self.modalTransitionStyle=UIModalPresentationCustom;
+    self.navigationController.delegate=self;
+    self.view.backgroundColor=[UIColor greenColor];
     self.navigationItem.title=NSLocalizedString(NSStringFromClass([self class]), nil);
-}
-
-
-- (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext{
-    return 0.5f;
-}
-
-- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
-    NSLog(@"执行动画");
+    self.transition=[[TransitionAB alloc]init];
 }
 
 - (nullable id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
                                    interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController{
-    return self;
+    return nil;
 }
 
 
@@ -43,22 +36,14 @@
                                             animationControllerForOperation:(UINavigationControllerOperation)operation
                                                          fromViewController:(UIViewController *)fromVC
                                                            toViewController:(UIViewController *)toVC{
-    return nil;
+    return self.transition;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

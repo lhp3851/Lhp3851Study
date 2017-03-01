@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface TransitionBViewController : UIViewController<UINavigationControllerDelegate,UIViewControllerInteractiveTransitioning,UIViewControllerTransitioningDelegate,UIViewControllerAnimatedTransitioning>
+@interface TransitionBViewController : UIViewController<UINavigationControllerDelegate>
 
 @end

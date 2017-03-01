@@ -144,6 +144,7 @@
 		7A5E871B1DC838B60005E7A1 /* CamaroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E87191DC838B60005E7A1 /* CamaroViewController.m */; };
 		7A5E871C1DC838B60005E7A1 /* CamaroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5E871A1DC838B60005E7A1 /* CamaroViewController.xib */; };
 		7A67184D1B9DD9AD0066F219 /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A67184C1B9DD9AD0066F219 /* plistdemo.plist */; };
+		7A67C8481E6706FF0038A51B /* TransitionAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A67C8471E6706FF0038A51B /* TransitionAB.m */; };
 		7A811BE51BD39EA600C962DA /* archiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A811BE41BD39EA600C962DA /* archiveData.m */; };
 		7A811BE81BD3A32B00C962DA /* archiveDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A811BE71BD3A32B00C962DA /* archiveDataViewController.m */; };
 		7A8136B71D1043C20003D75F /* DateToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8136B61D1043C20003D75F /* DateToolViewController.m */; };
@@ -466,6 +467,8 @@
 		7A5E87191DC838B60005E7A1 /* CamaroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CamaroViewController.m; path = adapteTableviewHight/CamaroViewController.m; sourceTree = SOURCE_ROOT; };
 		7A5E871A1DC838B60005E7A1 /* CamaroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CamaroViewController.xib; path = adapteTableviewHight/CamaroViewController.xib; sourceTree = SOURCE_ROOT; };
 		7A67184C1B9DD9AD0066F219 /* plistdemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plistdemo.plist; sourceTree = "<group>"; };
+		7A67C8461E6706FF0038A51B /* TransitionAB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAB.h; path = adapteTableviewHight/Controller/TransitionAB.h; sourceTree = SOURCE_ROOT; };
+		7A67C8471E6706FF0038A51B /* TransitionAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAB.m; path = adapteTableviewHight/Controller/TransitionAB.m; sourceTree = SOURCE_ROOT; };
 		7A806B891E5939EE0064F893 /* libFMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFMDB.a; path = "../../Library/Developer/Xcode/DerivedData/adapteTableviewHight-gerdpfuwnidtzacebxmijmqglumt/Build/Products/Debug-iphonesimulator/FMDB/libFMDB.a"; sourceTree = "<group>"; };
 		7A811BE31BD39EA600C962DA /* archiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = archiveData.h; sourceTree = "<group>"; };
 		7A811BE41BD39EA600C962DA /* archiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = archiveData.m; sourceTree = "<group>"; };
@@ -615,6 +618,8 @@
 				133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */,
 				133E8DDF1E66E64D00E1835F /* TransitionBViewController.h */,
 				133E8DE01E66E64D00E1835F /* TransitionBViewController.m */,
+				7A67C8461E6706FF0038A51B /* TransitionAB.h */,
+				7A67C8471E6706FF0038A51B /* TransitionAB.m */,
 			);
 			name = TransitionViewController;
 			sourceTree = "<group>";
@@ -2060,6 +2065,7 @@
 				7AD55EC31E59954C004E6212 /* PickerImageTool.m in Sources */,
 				133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */,
 				138D7E7E1E601AA20022A8BD /* file_output.cpp in Sources */,
+				7A67C8481E6706FF0038A51B /* TransitionAB.m in Sources */,
 				7A882FC21CEE2AC70058EC07 /* UITabBarItem+DefaultTabBarItem.m in Sources */,
 				138D7E551E6018390022A8BD /* ImagePickerViewController.m in Sources */,
 				138D7E181E6012480022A8BD /* LXButton.m in Sources */,
