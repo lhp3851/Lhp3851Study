@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133E8DDE1E66E62D00E1835F /* TransitionAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */; };
+		133E8DE11E66E64D00E1835F /* TransitionBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133E8DE01E66E64D00E1835F /* TransitionBViewController.m */; };
 		133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65611E5D8FC900279C9E /* PHAssetViewController.m */; };
 		133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */; };
 		133F656C1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */; };
+		13544D371E65619E0064B01B /* VedioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13544D361E65619E0064B01B /* VedioTool.m */; };
 		136601411E5E84F10073EAD8 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136601401E5E84F10073EAD8 /* PhotoBrowserViewController.m */; };
 		138D7E181E6012480022A8BD /* LXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D7E171E6012480022A8BD /* LXButton.m */; };
 		138D7E1B1E6012680022A8BD /* 06_Chimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 138D7E191E6012680022A8BD /* 06_Chimes.mp3 */; };
@@ -234,12 +237,18 @@
 
 /* Begin PBXFileReference section */
 		0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		133E8DDC1E66E62D00E1835F /* TransitionAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAViewController.h; path = adapteTableviewHight/Controller/TransitionAViewController.h; sourceTree = SOURCE_ROOT; };
+		133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAViewController.m; path = adapteTableviewHight/Controller/TransitionAViewController.m; sourceTree = SOURCE_ROOT; };
+		133E8DDF1E66E64D00E1835F /* TransitionBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionBViewController.h; sourceTree = "<group>"; };
+		133E8DE01E66E64D00E1835F /* TransitionBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionBViewController.m; sourceTree = "<group>"; };
 		133F65601E5D8FC900279C9E /* PHAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHAssetViewController.h; path = adapteTableviewHight/PHAssetViewController.h; sourceTree = SOURCE_ROOT; };
 		133F65611E5D8FC900279C9E /* PHAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHAssetViewController.m; path = adapteTableviewHight/PHAssetViewController.m; sourceTree = SOURCE_ROOT; };
 		133F65671E5D920300279C9E /* PHAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAssetCollectionViewCell.h; sourceTree = "<group>"; };
 		133F65681E5D920300279C9E /* PHAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAssetCollectionViewCell.m; sourceTree = "<group>"; };
 		133F656A1E5DB68400279C9E /* PHCollectionAssetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCollectionAssetTableViewCell.h; sourceTree = "<group>"; };
 		133F656B1E5DB68400279C9E /* PHCollectionAssetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCollectionAssetTableViewCell.m; sourceTree = "<group>"; };
+		13544D351E65619E0064B01B /* VedioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VedioTool.h; path = adapteTableviewHight/VedioTool.h; sourceTree = SOURCE_ROOT; };
+		13544D361E65619E0064B01B /* VedioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VedioTool.m; path = adapteTableviewHight/VedioTool.m; sourceTree = SOURCE_ROOT; };
 		1366013F1E5E84F10073EAD8 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoBrowserViewController.h; path = adapteTableviewHight/PhotoBrowserViewController.h; sourceTree = SOURCE_ROOT; };
 		136601401E5E84F10073EAD8 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowserViewController.m; path = adapteTableviewHight/PhotoBrowserViewController.m; sourceTree = SOURCE_ROOT; };
 		138D7E161E6012480022A8BD /* LXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXButton.h; sourceTree = SOURCE_ROOT; };
@@ -599,6 +608,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133E8DD71E66E5EB00E1835F /* TransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				133E8DDC1E66E62D00E1835F /* TransitionAViewController.h */,
+				133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */,
+				133E8DDF1E66E64D00E1835F /* TransitionBViewController.h */,
+				133E8DE01E66E64D00E1835F /* TransitionBViewController.m */,
+			);
+			name = TransitionViewController;
+			sourceTree = "<group>";
+		};
 		136601391E5E7BAA0073EAD8 /* C++ */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +657,8 @@
 		1366013D1E5E827A0073EAD8 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				13544D351E65619E0064B01B /* VedioTool.h */,
+				13544D361E65619E0064B01B /* VedioTool.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -1448,6 +1470,7 @@
 		7AE0214A1CEFEDE800227053 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				133E8DD71E66E5EB00E1835F /* TransitionViewController */,
 				7A5486F71E5DEB7B00F532C8 /* TopViewController */,
 				7A47214D1DC74D8500827557 /* AlertCotroller */,
 				7A531E221DC5A4AA0070C21C /* Notification */,
@@ -2043,6 +2066,7 @@
 				79CCC19F1AE7BD6A00FD10DA /* RequestPostUploadHelper.m in Sources */,
 				7A882FBF1CEE2AC70058EC07 /* UINavigationBar+KKStar.m in Sources */,
 				7A4DD21A1C2C31B100150417 /* CrashLogViewController.m in Sources */,
+				13544D371E65619E0064B01B /* VedioTool.m in Sources */,
 				138D7E4F1E6018390022A8BD /* MusicPlayerViewController.m in Sources */,
 				7A882FBC1CEE2AC70058EC07 /* UIControl+JerryLiu.m in Sources */,
 				138D7E8B1E601AA20022A8BD /* Reachability.m in Sources */,
@@ -2085,6 +2109,7 @@
 				7A5486E71E5DC9D200F532C8 /* UMChatTableViewCell.m in Sources */,
 				136601411E5E84F10073EAD8 /* PhotoBrowserViewController.m in Sources */,
 				7AEAADEE1BB45A85002444DE /* delegateAndBlockViewController.m in Sources */,
+				133E8DDE1E66E62D00E1835F /* TransitionAViewController.m in Sources */,
 				138D7E541E6018390022A8BD /* IntergrateVedioViewController.m in Sources */,
 				7A5486F01E5DD26700F532C8 /* ConnactViewController.m in Sources */,
 				138D7EAC1E601EAC0022A8BD /* UIWindowViewController.m in Sources */,
@@ -2118,6 +2143,7 @@
 				79CB50FF1B3A58CF00456DF5 /* DMLazyScrollView.m in Sources */,
 				7A882FBE1CEE2AC70058EC07 /* NSMutableDictionary_extra.m in Sources */,
 				7AE6F03E1BB04D780061B8CE /* BookActivity.m in Sources */,
+				133E8DE11E66E64D00E1835F /* TransitionBViewController.m in Sources */,
 				7AE9EAB81BAEF9940013CB66 /* sendWeiboViewController.m in Sources */,
 				138D7E861E601AA20022A8BD /* FSXMLHttpRequest.m in Sources */,
 				7A47214C1DC6F0FF00827557 /* AlertTool.m in Sources */,

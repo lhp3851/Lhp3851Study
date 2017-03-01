@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "testDotA.h"
 #import "singleton.h"
-
+#import "TransitionAViewController.h"
 
 
 //#import <CoreBluetooth/CoreBluetooth.h>
@@ -60,7 +60,7 @@
 }
 
 -(void)initData{
-    functionArray=[NSMutableArray arrayWithObjects:@[@".a文件",@"单例",@"plist文件",@"蓝牙"],nil];
+    functionArray=[NSMutableArray arrayWithObjects:@[@".a文件",@"单例",@"plist文件",@"蓝牙",@"转场动画"],nil];
 }
 
 //.a文件验证
@@ -164,7 +164,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    TransitionAViewController *AVC=[[TransitionAViewController alloc] init];
+    [self.navigationController pushViewController:AVC animated:YES];
 }
 
 
