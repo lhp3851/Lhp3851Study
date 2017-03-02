@@ -12,7 +12,7 @@
 static NSString *host=@"";
 static NSString *port=@"";
 
-@interface ViewController ()
+@interface ViewController ()<MessageTextfieldDelegate>
 @property(nonatomic,strong)MessageTextfield *msgTextField;
 @end
 
@@ -113,6 +113,11 @@ static NSString *port=@"";
         default:
             break;
     }
+}
+
+#pragma mark MessageTextfieldDelegate
+-(void)sendData{
+    [self sendDataToServer:self.msgTextField.msgTextFiled.text];
 }
 
 - (void)didReceiveMemoryWarning {

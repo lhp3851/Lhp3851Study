@@ -18,6 +18,7 @@
     self=[super init];
     if (self) {
         self.viewController =viewController;
+        self.delegate=(id<MessageTextfieldDelegate>)viewController;
         [self addSubview:self.msgTextFiled];
         [self addSubview:self.sendBut];
     }
@@ -27,7 +28,7 @@
 -(UITextField *)msgTextFiled{
     if (!_msgTextFiled) {
         _msgTextFiled=[[UITextField alloc]initWithFrame:(CGRect){5,7.5f,kSCREENWIDTH-85,45}];
-        _msgTextFiled.delegate=self.viewController;
+        _msgTextFiled.delegate=(id<UITextFieldDelegate>)self.viewController;
         _msgTextFiled.placeholder=@"输入要发送的消息";
     }
     return _msgTextFiled;
@@ -47,7 +48,9 @@
 }
 
 -(void)sendMessage:(id)sender{
-    
+    if (self.delegate&&[self.delegate respondsToSelector:@selector(sendData)]) {
+        [self.delegate sendData];
+    }
 }
 
 @end
