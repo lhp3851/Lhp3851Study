@@ -9,7 +9,7 @@
 #import "TransitionBViewController.h"
 #import "TransitionAB.h"
 
-@interface TransitionBViewController ()<UINavigationControllerDelegate>
+@interface TransitionBViewController ()
 @property(nonatomic,strong)TransitionAB *transition;
 @end
 

@@ -18,7 +18,7 @@
      int flag ; //操作标志 0为发送 1为接收
 }
 
-@property (nonatomic, retain) NSInputStream *inputStream;
+@property (nonatomic, retain) NSInputStream  *inputStream;
 @property (nonatomic, retain) NSOutputStream *outputStream;
 
 @end

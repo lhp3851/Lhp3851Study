@@ -16,7 +16,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import "Const.h"
-    #import "CategeryOrExtension.h"//自定义类别、拓展
+
+//    #import "CategeryOrExtension.h"//自定义类别、拓展
 #endif
 
 

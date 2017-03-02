@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13632F281E68169D006B3D3F /* MessageTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 13632F271E68169D006B3D3F /* MessageTextfield.m */; };
 		7AEDA5301BB9162500069D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDA52F1BB9162500069D34 /* main.m */; };
 		7AEDA5331BB9162500069D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDA5321BB9162500069D34 /* AppDelegate.m */; };
 		7AEDA5361BB9162500069D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDA5351BB9162500069D34 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13632F261E68169D006B3D3F /* MessageTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTextfield.h; sourceTree = "<group>"; };
+		13632F271E68169D006B3D3F /* MessageTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTextfield.m; sourceTree = "<group>"; };
 		7AEDA52B1BB9162500069D34 /* socketForClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socketForClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEDA52F1BB9162500069D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AEDA5311BB9162500069D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				7AEDA5321BB9162500069D34 /* AppDelegate.m */,
 				7AEDA5341BB9162500069D34 /* ViewController.h */,
 				7AEDA5351BB9162500069D34 /* ViewController.m */,
+				13632F261E68169D006B3D3F /* MessageTextfield.h */,
+				13632F271E68169D006B3D3F /* MessageTextfield.m */,
 				7AEDA5371BB9162500069D34 /* Main.storyboard */,
 				7AEDA53D1BB9162500069D34 /* Assets.xcassets */,
 				7AEDA53F1BB9162500069D34 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13632F281E68169D006B3D3F /* MessageTextfield.m in Sources */,
 				7AEDA5361BB9162500069D34 /* ViewController.m in Sources */,
 				7AEDA5331BB9162500069D34 /* AppDelegate.m in Sources */,
 				7AEDA5301BB9162500069D34 /* main.m in Sources */,
@@ -416,22 +422,28 @@
 		7AEDA55C1BB9162500069D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/guanli/Documents/Xcode/lhp3851Study/adapteTableviewHight/AdapteTableviewHight.pch;
 				INFOPLIST_FILE = socketForClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lhp.socketForClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7AEDA55D1BB9162500069D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/guanli/Documents/Xcode/lhp3851Study/adapteTableviewHight/AdapteTableviewHight.pch;
 				INFOPLIST_FILE = socketForClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lhp.socketForClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +514,7 @@
 				7AEDA55D1BB9162500069D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AEDA55E1BB9162500069D34 /* Build configuration list for PBXNativeTarget "socketForClientTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				7AEDA5601BB9162500069D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AEDA5611BB9162500069D34 /* Build configuration list for PBXNativeTarget "socketForClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				7AEDA5631BB9162500069D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
