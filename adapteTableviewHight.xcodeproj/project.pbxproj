@@ -67,6 +67,10 @@
 		138D7EAD1E601EAC0022A8BD /* UIWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138D7EAB1E601EAC0022A8BD /* UIWindowViewController.xib */; };
 		138D7EB11E601EC20022A8BD /* UIControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D7EAF1E601EC20022A8BD /* UIControlViewController.m */; };
 		138D7EB21E601EC20022A8BD /* UIControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138D7EB01E601EC20022A8BD /* UIControlViewController.xib */; };
+		13A805721E694ED300C5DD99 /* BlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A805711E694ED300C5DD99 /* BlueToothViewController.m */; };
+		13A805761E696A6200C5DD99 /* DotAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A805751E696A6200C5DD99 /* DotAViewController.m */; };
+		13A8057A1E696AAB00C5DD99 /* SingleInstanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A805791E696AAB00C5DD99 /* SingleInstanceViewController.m */; };
+		13A8057E1E696ADE00C5DD99 /* PlistFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A8057D1E696ADE00C5DD99 /* PlistFileViewController.m */; };
 		13B513881E5A8F200046FEB7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513871E5A8F200046FEB7 /* libresolv.tbd */; };
 		13B513A41E5A90900046FEB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A31E5A90900046FEB7 /* CFNetwork.framework */; };
 		13B513A61E5A90A80046FEB7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B513A51E5A90A80046FEB7 /* libxml2.tbd */; };
@@ -343,6 +347,14 @@
 		138D7EAE1E601EC20022A8BD /* UIControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIControlViewController.h; path = adapteTableviewHight/UIControlViewController.h; sourceTree = SOURCE_ROOT; };
 		138D7EAF1E601EC20022A8BD /* UIControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIControlViewController.m; path = adapteTableviewHight/UIControlViewController.m; sourceTree = SOURCE_ROOT; };
 		138D7EB01E601EC20022A8BD /* UIControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIControlViewController.xib; path = adapteTableviewHight/UIControlViewController.xib; sourceTree = SOURCE_ROOT; };
+		13A805701E694ED300C5DD99 /* BlueToothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueToothViewController.h; path = adapteTableviewHight/Controller/BlueToothViewController.h; sourceTree = SOURCE_ROOT; };
+		13A805711E694ED300C5DD99 /* BlueToothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlueToothViewController.m; path = adapteTableviewHight/Controller/BlueToothViewController.m; sourceTree = SOURCE_ROOT; };
+		13A805741E696A6200C5DD99 /* DotAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotAViewController.h; sourceTree = "<group>"; };
+		13A805751E696A6200C5DD99 /* DotAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotAViewController.m; sourceTree = "<group>"; };
+		13A805781E696AAB00C5DD99 /* SingleInstanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleInstanceViewController.h; sourceTree = "<group>"; };
+		13A805791E696AAB00C5DD99 /* SingleInstanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleInstanceViewController.m; sourceTree = "<group>"; };
+		13A8057C1E696ADE00C5DD99 /* PlistFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistFileViewController.h; sourceTree = "<group>"; };
+		13A8057D1E696ADE00C5DD99 /* PlistFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistFileViewController.m; sourceTree = "<group>"; };
 		13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHight.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHight/Pods-AdapteTableviewHight.release.xcconfig"; sourceTree = "<group>"; };
 		13B5137B1E5A872B0046FEB7 /* libXMPPFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPPFramework.a; path = "Pods/../build/Debug-iphoneos/XMPPFramework/libXMPPFramework.a"; sourceTree = "<group>"; };
 		13B513871E5A8F200046FEB7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -816,6 +828,42 @@
 			);
 			name = FreeStreamer;
 			path = adapteTableviewHight/FreeStreamer;
+			sourceTree = "<group>";
+		};
+		13A8056B1E694EAF00C5DD99 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				13A805701E694ED300C5DD99 /* BlueToothViewController.h */,
+				13A805711E694ED300C5DD99 /* BlueToothViewController.m */,
+			);
+			name = BlueTooth;
+			sourceTree = "<group>";
+		};
+		13A805731E696A5000C5DD99 /* DotA */ = {
+			isa = PBXGroup;
+			children = (
+				13A805741E696A6200C5DD99 /* DotAViewController.h */,
+				13A805751E696A6200C5DD99 /* DotAViewController.m */,
+			);
+			name = DotA;
+			sourceTree = "<group>";
+		};
+		13A805771E696A9500C5DD99 /* SingleInstance */ = {
+			isa = PBXGroup;
+			children = (
+				13A805781E696AAB00C5DD99 /* SingleInstanceViewController.h */,
+				13A805791E696AAB00C5DD99 /* SingleInstanceViewController.m */,
+			);
+			name = SingleInstance;
+			sourceTree = "<group>";
+		};
+		13A8057B1E696AC900C5DD99 /* PlistFile */ = {
+			isa = PBXGroup;
+			children = (
+				13A8057C1E696ADE00C5DD99 /* PlistFileViewController.h */,
+				13A8057D1E696ADE00C5DD99 /* PlistFileViewController.m */,
+			);
+			name = PlistFile;
 			sourceTree = "<group>";
 		};
 		522445E317DB4DA6BCBD163B /* Pods */ = {
@@ -1475,6 +1523,10 @@
 		7AE0214A1CEFEDE800227053 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				13A8057B1E696AC900C5DD99 /* PlistFile */,
+				13A805771E696A9500C5DD99 /* SingleInstance */,
+				13A805731E696A5000C5DD99 /* DotA */,
+				13A8056B1E694EAF00C5DD99 /* BlueTooth */,
 				133E8DD71E66E5EB00E1835F /* TransitionViewController */,
 				7A5486F71E5DEB7B00F532C8 /* TopViewController */,
 				7A47214D1DC74D8500827557 /* AlertCotroller */,
@@ -2125,6 +2177,7 @@
 				7A5486F41E5DD41E00F532C8 /* SettingViewController.m in Sources */,
 				7A882FBD1CEE2AC70058EC07 /* UIViewController+JerryLiu.m in Sources */,
 				7A5E871B1DC838B60005E7A1 /* CamaroViewController.m in Sources */,
+				13A8057A1E696AAB00C5DD99 /* SingleInstanceViewController.m in Sources */,
 				7A2CCFF51D4456B300CAD353 /* AudioEffectViewController.m in Sources */,
 				7AB09B001BA9A7160042AC02 /* thirdInputHandleViewController.m in Sources */,
 				138D7E8A1E601AA20022A8BD /* input_stream.cpp in Sources */,
@@ -2149,8 +2202,10 @@
 				79CB50FF1B3A58CF00456DF5 /* DMLazyScrollView.m in Sources */,
 				7A882FBE1CEE2AC70058EC07 /* NSMutableDictionary_extra.m in Sources */,
 				7AE6F03E1BB04D780061B8CE /* BookActivity.m in Sources */,
+				13A805721E694ED300C5DD99 /* BlueToothViewController.m in Sources */,
 				133E8DE11E66E64D00E1835F /* TransitionBViewController.m in Sources */,
 				7AE9EAB81BAEF9940013CB66 /* sendWeiboViewController.m in Sources */,
+				13A805761E696A6200C5DD99 /* DotAViewController.m in Sources */,
 				138D7E861E601AA20022A8BD /* FSXMLHttpRequest.m in Sources */,
 				7A47214C1DC6F0FF00827557 /* AlertTool.m in Sources */,
 				79CCC19B1AE7A56E00FD10DA /* baseTabarViewController.m in Sources */,
@@ -2167,6 +2222,7 @@
 				138D7E9D1E601E620022A8BD /* UINavigationViewViewController.m in Sources */,
 				138D7E7D1E601AA20022A8BD /* caching_stream.cpp in Sources */,
 				7AD55ECC1E599B7C004E6212 /* TopViewController.m in Sources */,
+				13A8057E1E696ADE00C5DD99 /* PlistFileViewController.m in Sources */,
 				7A8E5DFD1CDBA50B00DE2EF3 /* MainTabBarController.m in Sources */,
 				138D7E521E6018390022A8BD /* AVVedioTakePhotoViewController.m in Sources */,
 				138D7EB11E601EC20022A8BD /* UIControlViewController.m in Sources */,
@@ -2308,6 +2364,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0F1D03B04EAB58A441879A7 /* Pods-AdapteTableviewHight.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -2367,6 +2424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13B3B0AF782BFD3B0A0B9818 /* Pods-AdapteTableviewHight.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;

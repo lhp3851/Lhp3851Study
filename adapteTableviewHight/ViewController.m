@@ -9,15 +9,18 @@
 #import "ViewController.h"
 #import "testDotA.h"
 #import "singleton.h"
+#import "DotAViewController.h"
+#import "SingleInstanceViewController.h"
+#import "PlistFileViewController.h"
+#import "BlueToothViewController.h"
 #import "TransitionAViewController.h"
 
 
-//#import <CoreBluetooth/CoreBluetooth.h>
-//#import <GameKit/GameKit.h>
+
 @interface ViewController (){
     NSMutableArray *functionArray;  //tableView数据存放数组
 }
-
+@property(nonatomic,strong)NSMutableDictionary *funcDic;
 @end
 
 @implementation ViewController
@@ -61,6 +64,13 @@
 
 -(void)initData{
     functionArray=[NSMutableArray arrayWithObjects:@[@".a文件",@"单例",@"plist文件",@"蓝牙",@"转场动画"],nil];
+    
+    _funcDic=[NSMutableDictionary dictionaryWithDictionary:@{@"SECTION0":@{@".a文件"   :@"DotAViewController",
+                                                                           @"单例"     :@"SingleInstanceViewController",
+                                                                           @"plist文件":@"PlistFileViewController",
+                                                                           @"蓝牙"     :@"BlueToothViewController",
+                                                                           @"转场动画"  :@"TransitionAViewController"},
+                                                             @"SECTION1":@{@"SECTION1":@"SECTION1_ROW0"}}];
 }
 
 //.a文件验证
@@ -127,7 +137,7 @@
 //初始化tableView;
 -(void)initView{
     CGRect frame = self.view.frame;
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(frame.origin.x,0, frame.size.width, frame.size.height)];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(frame.origin.x,0, frame.size.width, frame.size.height) style:UITableViewStyleGrouped];
     _tableView.delegate   = self;
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
@@ -136,16 +146,20 @@
 
 #pragma mark UITableViewDelegate
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return functionArray.count;
+    return _funcDic.count;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50.0f;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10.0f;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    NSArray *subArray=[functionArray objectAtIndex:section];
-    return [subArray count];
+    NSDictionary *subDic=[_funcDic objectForKey:[NSString stringWithFormat:@"SECTION%ld",section]];
+    return [subDic count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -155,8 +169,9 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    NSArray *subArray=[functionArray objectAtIndex:indexPath.section];
-    cell.textLabel.text=[subArray objectAtIndex:indexPath.row];
+    NSDictionary *subDic=[_funcDic objectForKey:[NSString stringWithFormat:@"SECTION%ld",indexPath.section]];
+    NSArray *keys=[subDic allKeys];
+    cell.textLabel.text=[keys objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -164,7 +179,11 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    TransitionAViewController *AVC=[[TransitionAViewController alloc] init];
+    NSDictionary *subDic=[_funcDic objectForKey:[NSString stringWithFormat:@"SECTION%ld",indexPath.section]];
+    NSArray *values=[subDic allValues];
+    Class cls=NSClassFromString(values[indexPath.row]);
+    UIViewController *AVC=[[cls alloc] init];
+    AVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:AVC animated:YES];
 }
 

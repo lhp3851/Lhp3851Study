@@ -41,9 +41,9 @@ int main(int argc, const char * argv[]) {
         //设置端口和地址
         struct sockaddr_in addr;
         memset(&addr, 0, sizeof(addr));//对指定的内存地址复制
-        addr.sin_len=sizeof(addr);//
-        addr.sin_family=AF_INET;//设置IPv4
-        addr.sin_port=htons(PORT);//无符号短整型转换成“网络字节序”
+        addr.sin_len        =sizeof(addr);//
+        addr.sin_family     =AF_INET;//设置IPv4
+        addr.sin_port       =htons(PORT);//无符号短整型转换成“网络字节序”
         addr.sin_addr.s_addr=htonl(INADDR_ANY);//INADDR_ANY 有内核分配，htonl函数 无符号长整型装换成“网络字节序”
         
         //从指定字节缓冲区复制，一个不可变的CFData;
@@ -75,7 +75,7 @@ void AcceptCallBack(CFSocketRef socket,
                     CFDataRef address,
                     const void *data,
                     void *info){
-    CFReadStreamRef readStream=NULL;
+    CFReadStreamRef  readStream=NULL;
     CFWriteStreamRef writeStream=NULL;
     
     //data参数含义是，如果回调类型是 kCFSocketAcceptCallBack data就是 CFSocketNativeHandle类型的指针
@@ -92,7 +92,7 @@ void AcceptCallBack(CFSocketRef socket,
     
     CFStreamClientContext stramCTxt={0,NULL,NULL,NULL,NULL};
     //注册两种回调函数
-    CFReadStreamSetClient(readStream, kCFStreamEventHasBytesAvailable, ReadStreamClientCallBack, &stramCTxt);
+    CFReadStreamSetClient (readStream,  kCFStreamEventHasBytesAvailable, ReadStreamClientCallBack, &stramCTxt);
     CFWriteStreamSetClient(writeStream, kCFStreamEventCanAcceptBytes, WriteStreamClientCallBack, &stramCTxt);
     
     //加入到循环队列中
