@@ -7,6 +7,7 @@
 //
 
 #import "SingleInstanceViewController.h"
+#import "singleton.h"
 
 @interface SingleInstanceViewController ()
 
@@ -17,11 +18,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initView];
+    [self singletonModle];
 }
 
 -(void)initView{
     self.view.backgroundColor=[UIColor greenColor];
     self.navigationItem.title=NSLocalizedString(NSStringFromClass([self class]), nil);
+}
+
+
+
+//单例验证
+-(void)singletonModle{
+    singleton *A = [[singleton alloc] init];
+    
+    NSLog(@"A:%p",A);
+    
+    singleton *B = [singleton getInsistance];
+    
+    NSLog(@"B:%p",B);
+    
+    singleton *C = [A copy];
+    
+    NSLog(@"C:%p",C);
 }
 
 - (void)didReceiveMemoryWarning {

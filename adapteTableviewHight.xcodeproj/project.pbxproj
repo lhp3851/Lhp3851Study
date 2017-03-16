@@ -16,6 +16,7 @@
 		1335ECA41E71558E00109810 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335EC9D1E71558E00109810 /* libswscale.a */; };
 		1335ECAA1E71560600109810 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335ECA91E71560600109810 /* libiconv.tbd */; };
 		1335ECAC1E71561100109810 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335ECAB1E71561100109810 /* libbz2.tbd */; };
+		133B3E801E7A3EFF000F15FB /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B3E7F1E7A3EFF000F15FB /* RunTimeViewController.m */; };
 		133E8DDE1E66E62D00E1835F /* TransitionAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */; };
 		133E8DE11E66E64D00E1835F /* TransitionBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133E8DE01E66E64D00E1835F /* TransitionBViewController.m */; };
 		133F65621E5D8FC900279C9E /* PHAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F65611E5D8FC900279C9E /* PHAssetViewController.m */; };
@@ -367,6 +368,8 @@
 		1335EC9D1E71558E00109810 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
 		1335ECA91E71560600109810 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		1335ECAB1E71561100109810 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		133B3E7E1E7A3EFF000F15FB /* RunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunTimeViewController.h; path = adapteTableviewHight/Controller/RunTimeViewController.h; sourceTree = SOURCE_ROOT; };
+		133B3E7F1E7A3EFF000F15FB /* RunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunTimeViewController.m; path = adapteTableviewHight/Controller/RunTimeViewController.m; sourceTree = SOURCE_ROOT; };
 		133E8DDC1E66E62D00E1835F /* TransitionAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAViewController.h; path = adapteTableviewHight/Controller/TransitionAViewController.h; sourceTree = SOURCE_ROOT; };
 		133E8DDD1E66E62D00E1835F /* TransitionAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAViewController.m; path = adapteTableviewHight/Controller/TransitionAViewController.m; sourceTree = SOURCE_ROOT; };
 		133E8DDF1E66E64D00E1835F /* TransitionBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionBViewController.h; sourceTree = "<group>"; };
@@ -950,6 +953,15 @@
 				1335EC9D1E71558E00109810 /* libswscale.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		133B3E7D1E7A3EE3000F15FB /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				133B3E7E1E7A3EFF000F15FB /* RunTimeViewController.h */,
+				133B3E7F1E7A3EFF000F15FB /* RunTimeViewController.m */,
+			);
+			name = RunTime;
 			sourceTree = "<group>";
 		};
 		133E8DD71E66E5EB00E1835F /* TransitionViewController */ = {
@@ -1815,8 +1827,8 @@
 		7A882FFC1CEE2E5B0058EC07 /* C luanguage */ = {
 			isa = PBXGroup;
 			children = (
-				7A8BD3BC1DBC6EE70050FC89 /* SortProgramer.c */,
 				7A8BD3BD1DBC6EE70050FC89 /* SortProgramer.h */,
+				7A8BD3BC1DBC6EE70050FC89 /* SortProgramer.c */,
 			);
 			path = "C luanguage";
 			sourceTree = "<group>";
@@ -1863,6 +1875,7 @@
 		7AE0214A1CEFEDE800227053 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				133B3E7D1E7A3EE3000F15FB /* RunTime */,
 				13A8057B1E696AC900C5DD99 /* PlistFile */,
 				13A805771E696A9500C5DD99 /* SingleInstance */,
 				13A805731E696A5000C5DD99 /* DotA */,
@@ -2457,6 +2470,7 @@
 			files = (
 				7AFDB6A91BB694A600681CB9 /* FileOperationViewController.m in Sources */,
 				7A37DD4B1D119F9400020A46 /* MoireViewController.m in Sources */,
+				133B3E801E7A3EFF000F15FB /* RunTimeViewController.m in Sources */,
 				7AD55EC31E59954C004E6212 /* PickerImageTool.m in Sources */,
 				133F65691E5D920300279C9E /* PHAssetCollectionViewCell.m in Sources */,
 				138D7E7E1E601AA20022A8BD /* file_output.cpp in Sources */,
@@ -2716,6 +2730,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 622A9GB38Y;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2777,6 +2792,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 622A9GB38Y;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

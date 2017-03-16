@@ -7,6 +7,7 @@
 //
 
 #import "DotAViewController.h"
+#import "testDotA.h"
 
 @interface DotAViewController ()
 
@@ -17,11 +18,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initView];
+    [self DotAFileTest];
 }
 
 -(void)initView{
     self.view.backgroundColor=[UIColor greenColor];
     self.navigationItem.title=NSLocalizedString(NSStringFromClass([self class]), nil);
+}
+
+//.a文件验证
+-(void)DotAFileTest{
+    testDotA *testInsistance=[[testDotA alloc]init];
+    //类方法
+    [testDotA printa];
+    //静态输出方法
+    [testInsistance printA];
+    //字符串输出方法
+    [testInsistance printString:@"string"];
+    //对象输出方法
+    [testInsistance print:[NSDate date]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,4 +14,11 @@
  */
 -(IBAction)FermatLastTheorem:(id)sender;
 
+
+/**
+ 冒泡排序
+
+ @param sender
+ */
+-(IBAction)bubbleSort:(id)sender;
 @end
