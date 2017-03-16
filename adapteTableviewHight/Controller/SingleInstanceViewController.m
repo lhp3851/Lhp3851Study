@@ -22,7 +22,7 @@
 }
 
 -(void)initView{
-    self.view.backgroundColor=[UIColor greenColor];
+    self.view.backgroundColor=[UIColor whiteColor];
     self.navigationItem.title=NSLocalizedString(NSStringFromClass([self class]), nil);
 }
 

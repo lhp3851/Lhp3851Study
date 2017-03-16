@@ -27,6 +27,8 @@
 }
 
 -(void)initView{
+    self.view.layer.backgroundColor=[UIColor whiteColor].CGColor;
+    self.navigationItem.title=NSStringFromClass([self class]);
     [self setupLayer];
     [self setupContext];
     [self setupRenderBuffer];

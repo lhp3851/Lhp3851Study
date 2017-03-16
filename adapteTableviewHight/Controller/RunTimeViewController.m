@@ -18,6 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initView];
+    [self initData];
+}
+
+-(void)initView{
+    self.view.backgroundColor=[UIColor whiteColor];
+    self.navigationItem.title=NSLocalizedString(NSStringFromClass([self class]), nil);
+}
+
+-(void)initData{
     objc_msgSend(_propertyName, @selector(setName:),@"balabala");
     NSString *name = (NSString *)objc_msgSend(_propertyName, @selector(getName));
     NSLog(@"name:%@",name);

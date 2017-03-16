@@ -15,7 +15,7 @@
 #import "RunTimeViewController.h"
 
 @interface ViewController (){
-    NSMutableArray *functionArray;  //tableView数据存放数组
+    
 }
 @property(nonatomic,strong)NSMutableDictionary *funcDic;
 @end
@@ -26,7 +26,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-
+        
     }
     return self;
 }
@@ -38,7 +38,7 @@
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    self.hidesBottomBarWhenPushed=YES;
+
 }
 
 
@@ -50,24 +50,20 @@
 }
 
 -(void)initData{
-    functionArray=[NSMutableArray arrayWithObjects:@[@".a文件",@"单例",@"plist文件",@"蓝牙",@"转场动画"],nil];
-    
-    _funcDic=[NSMutableDictionary dictionaryWithDictionary:@{@"SECTION0":@{@".a文件"    :@"DotAViewController",
-                                                                           @"单例"      :@"SingleInstanceViewController",
-                                                                           @"plist文件" :@"PlistFileViewController",
-                                                                           @"蓝牙"      :@"BlueToothViewController",
-                                                                           @"转场动画"   :@"TransitionAViewController",
+    _funcDic=[NSMutableDictionary dictionaryWithDictionary:@{@"SECTION0":@{@"点a文件"    :@"DotAViewController",
+                                                                           @"单例"       :@"SingleInstanceViewController",
+                                                                           @"plist文件"  :@"PlistFileViewController",
+                                                                           @"蓝牙"       :@"BlueToothViewController",
+                                                                           @"转场动画"    :@"TransitionAViewController",
                                                                            @"OpenGL ES" :@"OpenGELSViewController",
-                                                                           @"Objc运行时":@"RunTimeViewController"},
-                                                             @"SECTION1":@{@"SECTION1":@"SECTION1_ROW0"}}];
+                                                                           @"Objc运行时" :@"RunTimeViewController"},
+                                                             @"SECTION1":@{@"SECTION1"  :@"SECTION1_ROW0"}}];
 }
 
 
-
-//初始化tableView;
 -(void)initView{
     CGRect frame = self.view.frame;
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(frame.origin.x,0, frame.size.width, frame.size.height) style:UITableViewStyleGrouped];
+    _tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStyleGrouped];
     _tableView.delegate   = self;
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
@@ -80,11 +76,15 @@
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 5.0f;
+    return 50.0f;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 10.0f;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 5.0f;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -114,9 +114,5 @@
     AVC.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:AVC animated:YES];
 }
-
-
-
-
 
 @end
