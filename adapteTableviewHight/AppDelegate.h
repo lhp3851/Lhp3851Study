@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
-#import "baseTabarViewController.h"
+#import "BaseTabarViewController.h"
 #import "MainTabBarController.h"
 #import "MainNavigationController.h"
 #import "UMFeedback.h"
@@ -24,6 +24,6 @@
 @property (strong, nonatomic) ViewController *viewController;
 
 
-@property (strong,nonatomic) baseTabarViewController *baseTabBarViewController;
+@property (strong,nonatomic) BaseTabarViewController *baseTabBarViewController;
 @end
 

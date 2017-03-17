@@ -1,5 +1,5 @@
 //
-//  baseTabarViewController.h
+//  BaseTabarViewController.h
 //  adapteTableviewHight
 //
 //  Created by ZizTour on 4/22/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface baseTabarViewController : UITabBarController
+@interface BaseTabarViewController : UITabBarController
 
 @end

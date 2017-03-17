@@ -11,7 +11,7 @@
 
 @interface H5JumpToAppViewController ()
 
-@property(nonatomic,strong)SesameGlobalWebView *webview;
+@property(nonatomic,strong)UIWebView *webview;
 
 @end
 
@@ -25,16 +25,25 @@
 
 -(void)initView{
     self.view.backgroundColor=[UIColor whiteColor];
+    [self.view addSubview:self.webview];
 }
 
 -(void)initData{
     self.navigationItem.title=@"H5跳转APP";
+    
+    NSURL *URL=[[NSBundle mainBundle] URLForResource:@"H5JumpToApp" withExtension:@"html"];
+    NSURLRequest *request=[NSURLRequest requestWithURL:URL];
+    [self.webview loadRequest:request];
+    
 }
 
+-(void)loadData:(id)object{
+    
+}
 
--(SesameGlobalWebView *)webview{
+-(UIWebView *)webview{
     if (!_webview) {
-        _webview=[[SesameGlobalWebView alloc]init];
+        _webview=[[UIWebView alloc]initWithFrame:self.view.frame];
     }
     return _webview;
 }

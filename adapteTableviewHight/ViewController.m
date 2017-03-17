@@ -13,6 +13,7 @@
 #import "TransitionAViewController.h"
 #import "OpenGELSViewController.h"
 #import "RunTimeViewController.h"
+#import "H5JumpToAppViewController.h"
 
 @interface ViewController (){
     
@@ -56,7 +57,8 @@
                                                                            @"蓝牙"       :@"BlueToothViewController",
                                                                            @"转场动画"    :@"TransitionAViewController",
                                                                            @"OpenGL ES" :@"OpenGELSViewController",
-                                                                           @"Objc运行时" :@"RunTimeViewController"},
+                                                                           @"Objc运行时" :@"RunTimeViewController",
+                                                                           @"H5跳转APP"  :@"H5JumpToAppViewController"},
                                                              @"SECTION1":@{@"SECTION1"  :@"SECTION1_ROW0"}}];
 }
 
