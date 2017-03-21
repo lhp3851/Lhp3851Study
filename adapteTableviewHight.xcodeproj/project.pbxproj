@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1329106B1E8114A2008B2FE8 /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329106A1E8114A2008B2FE8 /* logo40.png */; };
+		1329106D1E8114C9008B2FE8 /* logo180-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329106C1E8114C9008B2FE8 /* logo180-2.png */; };
 		1335EC9E1E71558E00109810 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335EC971E71558E00109810 /* libavcodec.a */; };
 		1335EC9F1E71558E00109810 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335EC981E71558E00109810 /* libavdevice.a */; };
 		1335ECA01E71558E00109810 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1335EC991E71558E00109810 /* libavfilter.a */; };
@@ -257,6 +259,8 @@
 
 /* Begin PBXFileReference section */
 		0725D859BFEDFACCA737AB38 /* Pods-AdapteTableviewHightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapteTableviewHightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapteTableviewHightTests/Pods-AdapteTableviewHightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1329106A1E8114A2008B2FE8 /* logo40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo40.png; sourceTree = "<group>"; };
+		1329106C1E8114C9008B2FE8 /* logo180-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo180-2.png"; sourceTree = "<group>"; };
 		1335EC271E71558E00109810 /* avcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avcodec.h; sourceTree = "<group>"; };
 		1335EC281E71558E00109810 /* avdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avdct.h; sourceTree = "<group>"; };
 		1335EC291E71558E00109810 /* avfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avfft.h; sourceTree = "<group>"; };
@@ -1338,6 +1342,8 @@
 		79D740C31AE63FC80093AEEF = {
 			isa = PBXGroup;
 			children = (
+				1329106C1E8114C9008B2FE8 /* logo180-2.png */,
+				1329106A1E8114A2008B2FE8 /* logo40.png */,
 				7AEDA51C1BB8DA0C00069D34 /* SocketIMForService.xcodeproj */,
 				7AEDA5641BB9162500069D34 /* socketForClient.xcodeproj */,
 				79D740CE1AE63FC80093AEEF /* LHPStudy */,
@@ -2347,6 +2353,7 @@
 				7A8136B91D1046710003D75F /* DateToolViewController.xib in Resources */,
 				138D7EAD1E601EAC0022A8BD /* UIWindowViewController.xib in Resources */,
 				7A2CD0141D445D8C00CAD353 /* mapapi.bundle in Resources */,
+				1329106B1E8114A2008B2FE8 /* logo40.png in Resources */,
 				7A2CD00D1D445D7700CAD353 /* outgo.png in Resources */,
 				7991C94C1B1ED25F00606046 /* feedbackViewController.xib in Resources */,
 				7A5486D81E5DC9D200F532C8 /* microphone@2x.png in Resources */,
@@ -2365,6 +2372,7 @@
 				138D7E291E6013470022A8BD /* VID_20111202_200114.3gp in Resources */,
 				7AE9EAB41BAEF0BE0013CB66 /* sinaWeiBoTableViewController.xib in Resources */,
 				138D7E281E6013470022A8BD /* demo_large_video_share.mp4 in Resources */,
+				1329106D1E8114C9008B2FE8 /* logo180-2.png in Resources */,
 				138D7E1B1E6012680022A8BD /* 06_Chimes.mp3 in Resources */,
 				138D7E211E60128D0022A8BD /* RuoyingLiu.jpg in Resources */,
 				7A5486E01E5DC9D200F532C8 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
