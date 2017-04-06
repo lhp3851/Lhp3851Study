@@ -24,11 +24,8 @@
 
 #ifndef adapteTableviewHight_pch
 #define adapteTableviewHight_pch
-//屏幕宽高
-#define kSCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
-#define kSCREENWIDTH  [[UIScreen mainScreen] bounds].size.width
 
-#define tablebarHight self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+
 //系统版本
 #define kSYSYTEM_VERSION  [UIDevice currentDevice].systemVersion.floatValue//系统版本
 #define kSYSTEM_FONT_VERSION(fontSize)  [UIFont systemFontOfSize:fontSize]//字体

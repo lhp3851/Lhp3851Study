@@ -25,7 +25,7 @@
  */
 -(void)setCrashLogButton{
     UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
-    [button setFrame:CGRectMake(0, tablebarHight, kSCREENWIDTH/3, 45)];
+    [button setFrame:CGRectMake(0, kTABLE_BAR_HEIGHT, kSCREENWIDTH/3, 45)];
     button.center=self.view.center;
     [button setTitle:@"Crash" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(crash:) forControlEvents:UIControlEventTouchUpInside

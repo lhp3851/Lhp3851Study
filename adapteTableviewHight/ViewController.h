@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "userModel.h"
-#import "TableViewCell.h"
 #import "DateTool.h"
 
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
