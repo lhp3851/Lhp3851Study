@@ -131,7 +131,7 @@
     }
 
     __block SDWebImageCombinedOperation *operation = [SDWebImageCombinedOperation new];
-    __weak SDWebImageCombinedOperation *weakOperation = operation;
+    __weak  SDWebImageCombinedOperation *weakOperation = operation;
 
     BOOL isFailedUrl = NO;
     @synchronized (self.failedURLs) {

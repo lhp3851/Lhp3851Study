@@ -12,9 +12,9 @@
 #import <ImageIO/ImageIO.h>
 #import "SDWebImageManager.h"
 
-NSString *const SDWebImageDownloadStartNotification = @"SDWebImageDownloadStartNotification";
+NSString *const SDWebImageDownloadStartNotification  = @"SDWebImageDownloadStartNotification";
 NSString *const SDWebImageDownloadReceiveResponseNotification = @"SDWebImageDownloadReceiveResponseNotification";
-NSString *const SDWebImageDownloadStopNotification = @"SDWebImageDownloadStopNotification";
+NSString *const SDWebImageDownloadStopNotification   = @"SDWebImageDownloadStopNotification";
 NSString *const SDWebImageDownloadFinishNotification = @"SDWebImageDownloadFinishNotification";
 
 @interface SDWebImageDownloaderOperation ()
