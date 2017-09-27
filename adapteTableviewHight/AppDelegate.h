@@ -13,7 +13,8 @@
 #import "MainNavigationController.h"
 #import "UMFeedback.h"
 #import "UMOpus.h"
-#import <BaiduMapAPI/BMKLocationService.h>
+
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,BMKGeneralDelegate>
 

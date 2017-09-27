@@ -6,7 +6,7 @@ target 'AdapteTableviewHight' do
     
     # Pods for AdapteTableviewHight
     pod 'RealReachability'
-    pod 'AFNetworking', '~> 3.0.0’
+    pod 'AFNetworking', '~> 3.0.0'
     pod 'BaiduMapKit' #百度地图SDK
     pod 'UMengAnalytics-NO-IDFA'
     pod 'UMengFeedback', '~> 2.3.4'
@@ -16,10 +16,6 @@ target 'AdapteTableviewHight' do
     pod 'MBProgressHUD', '~> 0.9.2'
     pod 'SDWebImage', '~>3.8'
     #pod 'SDWebImage/WebP'
-    pod 'XMPPFramework', :git => "https://github.com/robbiehanson/XMPPFramework.git", :branch => 'master'
-    
-    target 'AdapteTableviewHightTests' do
-        inherit! :search_paths
-        # Pods for testing0
-    end
+#    pod 'XMPPFramework', :git => "https://github.com/robbiehanson/XMPPFramework.git", :branch => 'master'
+   pod 'XMPPFramework', '~> 3.7.0'
 end

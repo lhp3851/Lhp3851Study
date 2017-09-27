@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "archiveData.h"
 
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
 
 @interface AppDelegate ()<UIAlertViewDelegate>{
     BMKMapManager* _mapManager;
@@ -34,7 +35,7 @@ void UncaughtExceptionHandler(NSException *exception){
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [UMFeedback setAppkey:@"556e833d67e58e0bc50037a0"];
-    [UMOpus setAudioEnable:YES];
+//    [UMOpus setAudioEnable:YES];
     
     _mapManager=[[BMKMapManager alloc]init];//百度地图
     BOOL ret=[_mapManager start:@"CSSyVewN38PiyOb3QPXWSfEP" generalDelegate:self];

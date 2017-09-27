@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "216d07c107899c8570a87bf4448196f0"
+build_time: [1506089219, 924470000]
+inputs:
+  "/Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/IntergrateVedio/IntergrateVedioSwiftViewController.swift": [9223372036, 854775807]

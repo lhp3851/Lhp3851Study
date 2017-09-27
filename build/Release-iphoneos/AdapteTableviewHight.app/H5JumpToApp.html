@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name='apple-itunes-app' content='app-id=1064414689'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
+	<title>H5跳转APP</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		 function submitFn(){
+            location.href = 'StarZone://';
+		    setTimeout(function() {
+		        location.href = 'https://itunes.apple.com/cn/app/id1064414689';
+		    }, 250);
+		    setTimeout(function() {
+		        location.reload();
+		    }, 1000);
+         }  
+
+
+         function arts(sourceobj){ 
+         	var str=$("openApp");
+			alert(str.href); 
+		} 
+	</script>
+</head>
+<body>
+	<button onclick="submitFn()">打开APP</button> <br></br>
+	<style>
+		button{
+    		width :100px;
+    		height:100px;
+		}
+	</style>
+	
+	<a href="https://itunes.apple.com/cn/app/id1064414689" id="goToApp">H5跳转APPStore</a> </br> </br>
+
+	<a href="StarZone://" id="open">H5打开APP</a> </br> </br>
+
+	<a href="https://www.baidu.com" id="openApp" onclick="arts('a'); return false">打开APP，链接JavaScript</a>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/Model/BaseModel.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/Controller/BaseViewController.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/Categery/UIImage+Extension.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/Pods/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.2.5/UMMobClick.framework/Headers/MobClick.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMRecorder.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/AdapteTableviewHight/UMengFeedback_SDK_2.3/UMFeedback.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/Categery/NSString+NSStringCatagery.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/AdapteTableviewHight/CategeryOrExtension.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/AdapteTableviewHight/Const.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/AdapteTableviewHight/AdapteTableviewHight.pch \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/FreeStreamer/FSParseRssPodcastFeedRequest.m \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/parser.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/tree.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlstring.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlregexp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/dict.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/hash.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/valid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlerror.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlautomata.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/entities.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/encoding.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlIO.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/globals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/SAX.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xlink.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/SAX2.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xmlmemory.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/threads.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/libxml2/libxml/xpath.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/FreeStreamer/FSParseRssPodcastFeedRequest.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/FreeStreamer/FSXMLHttpRequest.h \
+  /Users/lhp3851/Documents/Xcode/lhp3851Study/adapteTableviewHight/FreeStreamer/FSPlaylistItem.h

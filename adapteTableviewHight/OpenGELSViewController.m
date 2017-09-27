@@ -63,7 +63,7 @@
 - (void)setupRenderBuffer {
     glGenRenderbuffers(1, &_colorRenderBuffer);
     glBindRenderbuffer(GL_RENDERBUFFER, _colorRenderBuffer);
-    [_context renderbufferStorage:GL_RENDERBUFFER fromDrawable:_eaglLayer];
+//    [_context renderbufferStorage:GL_RENDERBUFFER fromDrawable:_eaglLayer];
 }
 
 - (void)setupFrameBuffer {
